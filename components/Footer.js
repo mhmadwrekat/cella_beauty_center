@@ -8,33 +8,33 @@ const Footer = () => {
                     <div class="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-9">
                         <div class="flex flex-col items-center justify-center">
                             <Link href="/">
-                                <img class='cursor-grab	hover:scale-110' 
-                                src='./cellalogo.jpg' width="130" height="30" />
+                                <img class='cursor-grab	hover:scale-110'
+                                    src='./cellalogo.jpg' width="130" height="30" />
                             </Link>
                             <div class="flex items-center gap-x-8 mt-4">
-                                <a href="https://wa.me/+962782950960"data-tippy-content="WhatsApp">
-                                <img src='./assest/whatsapp.png'
-                                    className='w-6 h-6 fill-current'/>
+                                <a href="https://wa.me/+962782950960" data-tippy-content="WhatsApp">
+                                    <img src='./assest/whatsapp.png'
+                                        className='w-6 h-6 fill-current' />
                                 </a>
                                 <a className="pb-0.5 rounded-full hover:scale-125" href="https://www.facebook.com/cella.center/"
                                     data-tippy-content="Facebook">
                                     <img src='./assest/facebook.png'
-                                    className='w-6 h-6 fill-curren'/>    
-                                    </a>
+                                        className='w-6 h-6 fill-curren' />
+                                </a>
                                 <a className=" rounded-full hover:scale-125" href="https://www.instagram.com/mhmadwrekatt?r=nametag"
                                     data-tippy-content="Instagram">
                                     <img src='./assest/instagram.png'
-                                    className='w-6 h-6 fill-current'/></a>
+                                        className='w-6 h-6 fill-current' /></a>
                             </div>
                             <div class="flex items-center mt-6">
-                            <p class="font-mono text-xs opacity-75 hover:scale-105 text-sky-900">Inc. All Rights Reserved</p>                                
+                                <p class="font-mono text-xs opacity-75 hover:scale-105 text-sky-900">Inc. All Rights Reserved</p>
                                 <div class="opacity-75 border-l border-gray-800 sm:pl-2 sm:ml-2">
                                     <a href='https://wa.me/+962788818125' class="text-sky-900 sm:block hidden font-mono text-xs hover:scale-105">2022 <span class="text-xs font-mono">MHMAD
-                                    WREKAT</span></a>
+                                        WREKAT</span></a>
                                 </div>
                             </div>
-                            <a href='https://wa.me/+962788818125' class="opacity-75 block sm:hidden pt-2 font-mono text-xs hover:scale-105">2022 <span class="text-xs font-mono">MHMAD
-                                    WREKAT</span></a>
+                            <a href='https://wa.me/+962788818125' class="text-sky-900 opacity-75 block sm:hidden pt-2 font-mono text-xs hover:scale-105">2022 <span class="text-sky-900 text-xs font-mono">MHMAD
+                                WREKAT</span></a>
                         </div>
                     </div>
                 </div>

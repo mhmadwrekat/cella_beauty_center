@@ -200,14 +200,9 @@ const hair = () => {
   </div>
   </div>
   </section>
-  
 </section>
-
-
-
           <Footer/>  
         </>
     )
 }
-
 export default hair
