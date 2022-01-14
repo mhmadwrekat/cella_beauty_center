@@ -15,7 +15,7 @@ const home = () => {
                   src="https://elianassalon.com/wp-content/uploads/sites/774/2019/08/wallpaperm.jpg" alt="Hair" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">الشعر</h4>
               </div>
-              <p className='px-5 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
+              <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
               </p>
             </div>
@@ -27,7 +27,7 @@ const home = () => {
                   src="./assest/nails1.jpg" alt="Nails" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">الأظافر</h4>
               </div>
-              <p className='px-5 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
+              <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 من لحظة دخولك الباب ، ينصب تركيزنا على راحتك التامة
                 نحن خبراء في ما نقوم به</p>
             </div>
@@ -39,7 +39,7 @@ const home = () => {
                   src="./assest/face5.jpg" alt="Face" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">البشرة</h4>
               </div>
-              <p className='px-5 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
+              <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 لقد ميزنا أنفسنا في كل جانب من جوانب خدماتنا ومنتجاتنا وأجواءنا
               </p>
             </div>
@@ -51,7 +51,7 @@ const home = () => {
                   src="./assest/masag.jpg" alt="Masag" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">المساج</h4>
               </div>
-              <p className='px-5 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
+              <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 تعالي لتنالي قسطا من الراحة معنا في سيلا بيوتي سنتر
               </p>
             </div>
@@ -63,7 +63,7 @@ const home = () => {
                   src="./makeup.jpg" alt="Makeup" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">المكياج</h4>
               </div>
-              <p className='px-5 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
+              <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 نحن نسعى بكل فخر لتصنيف سيلا بيوتي سنتر كواحد من الأفضل والأنظف والأكثر صحة في المدينة
               </p>
             </div>
@@ -75,7 +75,7 @@ const home = () => {
                   src="./cella6.jpg" alt="others" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">خدمات اخرى</h4>
               </div>
-              <p className='px-5 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
+              <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 سيتطلع فريقنا المحترف إلى تدليلك
               </p>
             </div>
