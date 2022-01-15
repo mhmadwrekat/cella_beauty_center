@@ -52,7 +52,7 @@ const home = () => {
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">المساج</h4>
               </div>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
-                تعالي لتنالي قسطا من الراحة معنا في سيلا بيوتي سنتر
+                زورينا لتنالي قسطا من الراحة معنا في سيلا بيوتي سنتر
               </p>
             </div>
           </section>
@@ -76,7 +76,7 @@ const home = () => {
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">خدمات اخرى</h4>
               </div>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
-                سيتطلع فريقنا المحترف إلى تدليلك
+                سيعمل فريقنا المحترف إلى تدليلك
               </p>
             </div>
           </section>
