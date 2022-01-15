@@ -1,27 +1,46 @@
 import React from 'react';
 import Link from "next/link";
+import Test from './text';
 const Footer = () => {
+
     return (
         <>
-            <section className='py-10 grid justify-center ...'>
-                <section className='px-20 py-10 bg-fuchsia-100 opacity-75 align-center'>
-                    <div className='flex flex-col items-center text-xl font-bold text-center text-sky-900  '>
-                        <div className='px-3'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="pt-3 mx-auto border-b-2 border-pink-900 opacity-25 w-5/5 sm:w-5/5 lg:mx-0"></div>
+
+        
+            <section className='py-10 justify-center ...'>
+                <section className='py-8 opacity-75 bg-fuchsia-100 align-center'>
+                    <div className='grid items-center text-xl font-bold text-center sm:grid-cols-1 text-sky-900 '>
+
+                    <div className='justify-center ...'>
+                            <iframe className='w-5/6 h-auto px-0 py-3 sm:px-10 sm:w-full sm:h-96 rounded-3xl' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9692.582730983906!2d35.884355085248224!3d32.06012974125795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccadd703c7e3d5a7!2sCella%20Beauty%20Center!5e0!3m2!1sar!2sjo!4v1642220212245!5m2!1sar!2sjo" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <div className=''>
                             <p>
-                                <img src='./assest/map.png' className='inline w-6 h-6 mr-2 fill-current ' />
-                                موقعنا
-                            </p>
-                            <p className='text-base sm:text-xl'>أبو نصير - مقابل أبو ليلى و فوق ملبوسات كاكاو</p>
-                        </div>
-                        <div className="w-4/5 pt-3 mx-auto border-b-2 border-pink-900 opacity-25 sm:w-2/5 lg:mx-0"></div>
-                        <div className='px-3 py-2'>
-                            <p>
-                       
                                 ساعات العمل</p>
                             <p className='text-base sm:text-xl'> 9:00 am - 7:00 pm</p>
                         </div>
                     </div>
                 </section></section>
+
+
+
+
             <section class='bg-white text-sky-900 ' id='profilefoot'>
                 <div>
                     <div class="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-9">

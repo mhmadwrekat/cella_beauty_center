@@ -1,0 +1,60 @@
+.review {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 0;
+    padding-bottom: 52.5%;
+  }
+  
+  .review-1 {
+    background-image: url("https://uploads.codesandbox.io/uploads/user/162784f0-7b29-4fa8-9339-d967fc12c2d7/3f9p-review-1.jpg");
+  }
+  
+  .review-2 {
+    background-image: url("https://uploads.codesandbox.io/uploads/user/162784f0-7b29-4fa8-9339-d967fc12c2d7/uPIj-review-2.jpg");
+  }
+  
+  .review-4 {
+    background-image: url("https://uploads.codesandbox.io/uploads/user/162784f0-7b29-4fa8-9339-d967fc12c2d7/D_CE-review-4.jpg");
+  }
+  
+  .review-5 {
+    background-image: url("https://uploads.codesandbox.io/uploads/user/162784f0-7b29-4fa8-9339-d967fc12c2d7/TchR-review-5.jpg");
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .review-1 {
+      background-image: url("https://uploads.codesandbox.io/uploads/user/162784f0-7b29-4fa8-9339-d967fc12c2d7/c3cG-review-1-desktop.jpg");
+    }
+    .review-2 {
+      background-image: url("https://uploads.codesandbox.io/uploads/user/162784f0-7b29-4fa8-9339-d967fc12c2d7/Kjtt-review-2-desktop.jpg");
+    }
+    .review-4 {
+      background-image: url("https://uploads.codesandbox.io/uploads/user/162784f0-7b29-4fa8-9339-d967fc12c2d7/D11r-review-4-desktop.jpg");
+    }
+    .review-5 {
+      background-image: url("https://uploads.codesandbox.io/uploads/user/162784f0-7b29-4fa8-9339-d967fc12c2d7/RlFI-review-5-desktop.jpg");
+    }
+  }
+  
+  .dots-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 9999;
+    padding: 5px 0;
+  }
+  .dots-container .dot {
+    background: #222;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .dots-container .active {
+    background: #fff;
+  }
+  
