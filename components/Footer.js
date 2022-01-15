@@ -16,7 +16,7 @@ const Footer = () => {
                         <div className="w-4/5 pt-3 mx-auto border-b-2 border-pink-900 opacity-25 sm:w-2/5 lg:mx-0"></div>
                         <div className='px-3 py-2'>
                             <p>
-                                <img src='./assest/time.png' className='inline w-6 h-6 mr-2 fill-current' />
+                       
                                 ساعات العمل</p>
                             <p className='text-base sm:text-xl'> 9:00 am - 7:00 pm</p>
                         </div>
