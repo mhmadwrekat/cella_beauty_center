@@ -2,19 +2,31 @@ import React from 'react';
 import Nav from '../components/nav';
 import Footer from '../components/Footer';
 import Link from "next/link";
+import Hero from '../components/Hero';
+/*
+<section className='grid justify-center ...'>
+
+      <div className="w-full mx-auto border-b-2 border-pink-900 opacity-90 sm:w-full lg:mx-0"></div>
+      <div class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">خدماتنا</div>
+      <div className="w-full mx-auto border-b-2 border-pink-900 opacity-90 sm:w-full lg:mx-0"></div>
+</section>
+*/
 const home = () => {
   return (
     <>
       <Nav />
+      <Hero />
       <section className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100'>
         <section className='grid grid-cols-1 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-3 sm:gap-5'>
           <section>
             <div class="w-80">
-              <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
-                <img class="object-cover w-full h-48"
-                  src="https://elianassalon.com/wp-content/uploads/sites/774/2019/08/wallpaperm.jpg" alt="Hair" />
-                <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">الشعر</h4>
-              </div>
+              <Link href="/hair">
+                <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
+                  <img class="object-cover w-full h-48"
+                    src="https://elianassalon.com/wp-content/uploads/sites/774/2019/08/wallpaperm.jpg" alt="Hair" />
+                  <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">الشعر</h4>
+                </div>
+              </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
               </p>
@@ -22,11 +34,13 @@ const home = () => {
           </section>
           <section>
             <div class="w-80">
-              <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
-                <img class="object-cover w-full h-48"
-                  src="./assest/nails1.jpg" alt="Nails" />
-                <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">الأظافر</h4>
-              </div>
+              <Link href="/nail">
+                <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
+                  <img class="object-cover w-full h-48"
+                    src="./assest/nails1.jpg" alt="Nails" />
+                  <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">الأظافر</h4>
+                </div>
+              </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 من لحظة دخولك الباب ، ينصب تركيزنا على راحتك التامة
                 نحن خبراء في ما نقوم به</p>
