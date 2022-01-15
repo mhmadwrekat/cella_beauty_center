@@ -110,29 +110,29 @@ const home = () => {
               <div class="flex flex-wrap w-1/2">
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main1.jpg" />
+                    src="./assestmain/main20.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main2.jpg" />
+                    src="./assest/face2.jpg" />
                 </div>
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main11.jpg" />
+                    src="./assest/face3.jpg" />
                 </div>
               </div>
               <div class="flex flex-wrap w-1/2">
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="../assestmain/main9.jpg" />
+                    src="../assestmain/main11.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main20.jpg" />
+                    src="./assestmain/main17.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main3.jpg" />
+                    src="./assestmain/main2.jpg" />
                 </div>
               </div>
             </div>
@@ -145,7 +145,7 @@ const home = () => {
               <div class="flex flex-wrap w-1/2">
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main23.jpg" />
+                    src="./assestmain/main15.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
@@ -153,13 +153,13 @@ const home = () => {
                 </div>
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main21.jpg" />
+                    src="./assestmain/main16.jpg" />
                 </div>
               </div>
               <div class="flex flex-wrap w-1/2">
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main22.jpg" />
+                    src="./assestmain/main27.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
@@ -167,7 +167,7 @@ const home = () => {
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main17.jpg" />
+                    src="./assestmain/main10.jpg" />
                 </div>
               </div>
             </div>

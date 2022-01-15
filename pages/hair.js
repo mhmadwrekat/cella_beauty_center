@@ -7,7 +7,28 @@ const hair = () => {
         <>
         <Nav/>
           <section className='pt-20 bg-gradient-to-r from-white to-fuchsia-100'>
+          <div>
+          <img src='https://jenhovanshair.com/wp-content/uploads/2013/11/slide-fall-3.jpg' class="w-full" />
 
+                <div className='hidden sm:flex'>
+                    <h4 className='absolute float-right text-3xl font-semibold text-right text-sky-900 w-96 top-80 left-32'>
+                    <br></br>دللي شعرك بلمسات مختلفة
+تساريح جديدة و فريدة
+ </h4>
+
+                </div>
+            </div>
+            <section className='absolute w-3/6 text-center sm:hidden top-24'>
+                <section className='relative'>
+                    <div class="relative py-5 sm:hidden overflow-hidden rounded-lg  cursor-pointer">
+                        <h4 class="mb-3 text-sm font-semibold text-center tracking-tight text-sky-900">
+                          <h4 className='px-5 font-semibold text-center text-sky-900'>
+                        <br></br>دللي شعرك بلمسات مختلفة
+تساريح جديدة و فريدة
+                            </h4></h4>
+                    </div>
+                </section>
+            </section>
 {/* S 1 */}
 {/* S 1 */}
 <Slide triggerOnce>
