@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className='grid items-center text-xl font-bold text-center sm:grid-cols-1 text-sky-900 '>
 
                     <div className='justify-center ...'>
-                            <iframe className='w-5/6 h-auto px-0 py-3 sm:px-10 sm:w-full sm:h-96 rounded-3xl' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9692.582730983906!2d35.884355085248224!3d32.06012974125795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccadd703c7e3d5a7!2sCella%20Beauty%20Center!5e0!3m2!1sar!2sjo!4v1642220212245!5m2!1sar!2sjo" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe className='w-5/6 h-auto px-3 py-3 sm:px-10 sm:w-full sm:h-96 rounded-3xl' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9692.582730983906!2d35.884355085248224!3d32.06012974125795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccadd703c7e3d5a7!2sCella%20Beauty%20Center!5e0!3m2!1sar!2sjo!4v1642220212245!5m2!1sar!2sjo" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <div className=''>
                             <p>
