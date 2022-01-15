@@ -3,7 +3,7 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Link from "next/link";
 import { Slide, Flip, Fade } from "react-awesome-reveal";
-const nail = () => {
+const massage = () => {
     return (
         <>
           <Nav/>
@@ -398,4 +398,4 @@ const nail = () => {
         </>
     )
 }
-export default nail
+export default massage

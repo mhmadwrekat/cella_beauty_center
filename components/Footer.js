@@ -3,18 +3,6 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <>
-
-
-
-
-
-
-
-
-
-
-
-
             <div className="pt-3 mx-auto border-b-2 border-pink-900 opacity-25 w-5/5 sm:w-5/5 lg:mx-0"></div>
             <section className='py-10 justify-center ...'>
                 <section className='py-8 opacity-75 bg-fuchsia-100 align-center'>
@@ -27,17 +15,17 @@ const Footer = () => {
                                 ساعات العمل</p>
                             <p className='text-sm sm:text-xl'> 9:00 am - 7:00 pm</p>
                         </div>
-                        <div className='sm:pr-5 pr-3 text-sm sm:text-xl sm:pt-7 pt-4  grid justify-center ...'>
-                        <div class="flex flex-wrap justify-center space-x-2 items-end">
-                            <Link href='tel:0782950960'>
-  <span
-    class="mx-4 rounded-full text-sky-900 bg-gray-200 font-semibold text-sm flex align-center cursor-pointer active:bg-gray-300 transition duration-300 ease w-max">
-    <img class="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none" alt="A"
-      src="https://cdn-icons-png.flaticon.com/512/3616/3616215.png" />
-    <a class="flex items-center sm:px-3 px-2 py-1 sm:py-2" href="tel:0782950960">0782950960</a>
-  </span>
-  </Link>
-</div>
+                        <div className='sm:pr-5 pr-2 text-sm sm:text-xl sm:pt-7 pt-4  grid justify-center ...'>
+                            <div class="flex flex-wrap justify-center space-x-2 items-end">
+                                <Link href='tel:0782950960'>
+                                    <span
+                                        class="mx-4 rounded-full text-sky-900 bg-gray-200 font-semibold text-sm flex align-center cursor-pointer active:bg-gray-300 transition duration-300 ease w-max">
+                                        <img class="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none" alt="A"
+                                            src="https://cdn-icons-png.flaticon.com/512/3616/3616215.png" />
+                                        <a class="flex items-center sm:px-3 px-2 py-1 sm:py-2" href="tel:0782950960">0782950960</a>
+                                    </span>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </section></section>
@@ -45,7 +33,7 @@ const Footer = () => {
                 <div>
                     <div class="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-9">
                         <div class="flex flex-col items-center justify-center">
-                        <Link href="/">
+                            <Link href="/">
                                 <img class='cursor-grab	hover:scale-110'
                                     src='./cellalogo.jpg' width="130" height="30" />
                             </Link>
@@ -65,7 +53,7 @@ const Footer = () => {
                                         className='w-6 h-6 fill-current' /></a>
                             </div>
                             <div class="flex items-center mt-6">
-                                <p class="font-mono text-xs opacity-75 pt-3 hover:scale-105 text-sky-900">Inc. All Rights Reserved</p>
+                                <p class="font-mono text-xs opacity-75 sm:pt-0 pt-3 hover:scale-105 text-sky-900">Inc. All Rights Reserved</p>
                                 <div class="opacity-75 border-l border-gray-800 sm:pl-2 sm:ml-2">
                                     <a href='https://wa.me/+962788818125' class="text-sky-900 sm:block hidden font-mono text-xs hover:scale-105">2022 <span class="text-xs font-mono">MHMAD
                                         WREKAT</span></a>

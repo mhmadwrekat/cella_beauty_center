@@ -1,8 +1,8 @@
 import React from 'react';
-import Nav from '../components/nav';
+import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Link from "next/link";
-import Hero from '../components/Hero';
+import Hero from '../components/Hero'
 /*
 <section className='grid justify-center ...'>
 
@@ -48,11 +48,13 @@ const home = () => {
           </section>
           <section>
             <div class="w-80">
+            <Link href="/face">
               <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
                 <img class="object-cover w-full h-48"
                   src="./assest/face5.jpg" alt="Face" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">البشرة</h4>
               </div>
+              </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 لقد ميزنا أنفسنا في كل جانب من جوانب خدماتنا ومنتجاتنا وأجواءنا
               </p>
@@ -60,11 +62,13 @@ const home = () => {
           </section>
           <section>
             <div class="w-80">
+            <Link href="/massage">
               <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
                 <img class="object-cover w-full h-48"
                   src="./assest/masag.jpg" alt="Masag" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">المساج</h4>
               </div>
+              </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 زورينا لتنالي قسطا من الراحة معنا في سيلا بيوتي سنتر
               </p>
@@ -72,11 +76,13 @@ const home = () => {
           </section>
           <section>
             <div class="w-80">
+            <Link href="/makeup">
               <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
                 <img class="object-cover w-full h-48"
                   src="./makeup.jpg" alt="Makeup" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">المكياج</h4>
               </div>
+              </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 نحن نسعى بكل فخر لتصنيف سيلا بيوتي سنتر كواحد من الأفضل والأنظف والأكثر صحة في المدينة
               </p>
@@ -84,11 +90,13 @@ const home = () => {
           </section>
           <section>
             <div class="w-80">
+            <Link href="/others">
               <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
                 <img class="object-cover w-full h-48"
                   src="./cella6.jpg" alt="others" />
                 <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">خدمات اخرى</h4>
               </div>
+              </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 سيعمل فريقنا المحترف إلى تدليلك
               </p>
@@ -102,29 +110,29 @@ const home = () => {
               <div class="flex flex-wrap w-1/2">
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face.jpg" />
+                    src="./assestmain/main1.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face2.jpg" />
+                    src="./assestmain/main2.jpg" />
                 </div>
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face3.jpg" />
+                    src="./assestmain/main11.jpg" />
                 </div>
               </div>
               <div class="flex flex-wrap w-1/2">
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face4.jpg" />
+                    src="../assestmain/main9.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face5.jpg" />
+                    src="./assestmain/main20.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face6.jpg" />
+                    src="./assestmain/main3.jpg" />
                 </div>
               </div>
             </div>
@@ -137,29 +145,29 @@ const home = () => {
               <div class="flex flex-wrap w-1/2">
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/nails1.jpg" />
+                    src="./assestmain/main23.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/nails2.jpg" />
+                    src="./assestmain/main14.jpg" />
                 </div>
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/nails3.jpg" />
+                    src="./assestmain/main21.jpg" />
                 </div>
               </div>
               <div class="flex flex-wrap w-1/2">
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./makeup.jpg" />
+                    src="./assestmain/main22.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./nailss.jpg" />
+                    src="./assestmain/main18.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./img1.jpg" />
+                    src="./assestmain/main17.jpg" />
                 </div>
               </div>
             </div>

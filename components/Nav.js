@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import Link from "next/link";
 import React, { useEffect } from "react";
-
-const nav = () => {
+const Nav = () => {
   useEffect(() => {
     try {
       const btn = document.querySelector("button.mobile-menu-button");
@@ -48,15 +47,6 @@ const nav = () => {
                             </Link>
                         </ul>
                 <div class="flex items-right mt-2">
-
-
-
-                
-
-
-
-
-
                   <a href="https://wa.me/+962782950960" data-tippy-content="WhatsApp">
                     <button class="bg-gradient-to-r from-purple-500 to-pink-500 ... hover:bg-pink-800 animate-bounce text-white font-bold py-2 px-4 rounded-full">
                       أحجزي موعدك
@@ -68,14 +58,7 @@ const nav = () => {
                       <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                   </button>*/}
                 </div>
-             
                     </div>
-
-
-
-
-
-
 {/*
               <div class='hidden mobile-menu md:hidden w-full bg-white opacity-80 border-gray-900'>
                 <ul class="flex flex-col md:flex-row md:space-x-0 md:mt-0 md:text-medium md:font-medium font-bold text-center">
@@ -101,4 +84,4 @@ const nav = () => {
     </>
   )
 }
-export default nav
+export default Nav
