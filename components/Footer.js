@@ -7,6 +7,14 @@ const Footer = () => {
 
 
 
+
+
+
+
+
+
+
+
             <div className="pt-3 mx-auto border-b-2 border-pink-900 opacity-25 w-5/5 sm:w-5/5 lg:mx-0"></div>
             <section className='py-10 justify-center ...'>
                 <section className='py-8 opacity-75 bg-fuchsia-100 align-center'>
@@ -20,16 +28,16 @@ const Footer = () => {
                             <p className='text-sm sm:text-xl'> 9:00 am - 7:00 pm</p>
                         </div>
                         <div className='sm:pr-5 pr-3 text-sm sm:text-xl sm:pt-7 pt-4  grid justify-center ...'>
-                        <p class="mb-4">
-          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
-            class="w-4 sm:w-5 mr-2 float-left " role="img" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512">
-            <path fill="currentColor"
-              d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
-            </path>
-          </svg>
-          0782950960
-        </p>
+                        <div class="flex flex-wrap justify-center space-x-2 items-end">
+                            <Link href='tel:0782950960'>
+  <span
+    class="mx-4 rounded-full text-sky-900 bg-gray-200 font-semibold text-sm flex align-center cursor-pointer active:bg-gray-300 transition duration-300 ease w-max">
+    <img class="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none" alt="A"
+      src="https://cdn-icons-png.flaticon.com/512/3616/3616215.png" />
+    <a class="flex items-center sm:px-3 px-2 py-1 sm:py-2" href="tel:0782950960">0782950960</a>
+  </span>
+  </Link>
+</div>
                         </div>
                     </div>
                 </section></section>

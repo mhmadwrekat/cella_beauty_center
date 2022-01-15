@@ -40,19 +40,43 @@ const nav = () => {
                   <img className='w-2/6 sm:w-1/6 hover:scale-110 cursor-grab'
                     src='./cellalogo.jpg' />
                 </Link>
+                        <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-sm sm:text-xl">
+                            <Link href='/'>
+                                <li>
+                                    <p class="cursor-grab hover:scale-110 block py-2 pr-4 font-bold pl-3 text-sky-900 hover:text-violet-600 rounded md:bg-transparent md:p-0">الرئيسية</p>
+                                </li>
+                            </Link>
+                        </ul>
                 <div class="flex items-right mt-2">
+
+
+
+                
+
+
+
+
+
                   <a href="https://wa.me/+962782950960" data-tippy-content="WhatsApp">
                     <button class="bg-gradient-to-r from-purple-500 to-pink-500 ... hover:bg-pink-800 animate-bounce text-white font-bold py-2 px-4 rounded-full">
                       أحجزي موعدك
                     </button>
                   </a>
-                  <button class="mobile-menu-button" type="button" >
+{/*                  <button class="mobile-menu-button" type="button" >
                     <span class="sr-only">Open main menu</span>
                     <svg class="text-gray-900 md:hidden flex w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                  </button>
+                  </button>*/}
                 </div>
-              </div>
+             
+                    </div>
+
+
+
+
+
+
+{/*
               <div class='hidden mobile-menu md:hidden w-full bg-white opacity-80 border-gray-900'>
                 <ul class="flex flex-col md:flex-row md:space-x-0 md:mt-0 md:text-medium md:font-medium font-bold text-center">
                   <li className='py-3'>
@@ -68,7 +92,7 @@ const nav = () => {
                     <a href="" class="cursor-grab hover:scale-110 py-2  text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">اتصل بنا</a>
                   </li>
                 </ul>
-              </div>
+</div>*/}
               <hr className="py-0 my-0 border-b border-gray-100 opacity-25" />
             </nav>
           </div>
