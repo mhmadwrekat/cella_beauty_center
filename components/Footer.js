@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <section className='py-10 grid justify-center ...'>
                 <section className='px-20 py-10 bg-fuchsia-100 opacity-75 align-center'>
-                    <div className='flex flex-col items-center text-xl font-bold text-center text-gray-900'>
+                    <div className='flex flex-col items-center text-xl font-bold text-center text-sky-900  '>
                         <div className='px-3'>
                             <p>
                                 <img src='./assest/map.png' className='inline w-6 h-6 mr-2 fill-current ' />
