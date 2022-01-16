@@ -109,29 +109,31 @@ const home = () => {
             <div class="flex flex-wrap -m-1 md:-m-2">
               <div class="flex flex-wrap w-1/2">
                 <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="caption block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main20.jpg" />
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="./assestmain/main20.jpg"
+                    onClick={()=>{window.open('./assestmain/main20.jpg')}}
+                     />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                  <img alt="gallery" class="hover:scale-150 block object-cover object-center w-full h-full rounded-lg"
                     src="./assest/face2.jpg" />
                 </div>
                 <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                  <img alt="gallery" class="block object-cover hover:scale-150 object-center w-full h-full rounded-lg"
                     src="./assest/face3.jpg" />
                 </div>
               </div>
               <div class="flex flex-wrap w-1/2">
                 <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                  <img alt="gallery" class="block object-cover object-center hover:scale-150 w-full h-full rounded-lg"
                     src="../assestmain/main11.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                  <img alt="gallery" class="block object-cover object-center w-full h-full hover:scale-150 rounded-lg"
                     src="./assestmain/main17.jpg" />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                  <img alt="gallery" class="focus:scale-150 justify-items-startblock object-cover object-center w-full h-full rounded-lg"
                     src="./assestmain/main2.jpg" />
                 </div>
               </div>
