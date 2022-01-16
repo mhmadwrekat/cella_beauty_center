@@ -7,7 +7,7 @@ const massage = () => {
     return (
         <>
           <Nav/>
-          <section className='pt-20 bg-gradient-to-r from-white to-fuchsia-100'>
+          <section className='pt-20 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
 
           <div>
           <img src='./assestmain/main21.jpg' class="w-full" />

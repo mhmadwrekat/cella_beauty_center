@@ -6,7 +6,7 @@ const hair = () => {
     return (
         <>
         <Nav/>
-          <section className='pt-20 bg-gradient-to-r from-white to-fuchsia-100'>
+          <section className='pt-20 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
           <div>
           <img src='https://jenhovanshair.com/wp-content/uploads/2013/11/slide-fall-3.jpg' class="w-full" />
 

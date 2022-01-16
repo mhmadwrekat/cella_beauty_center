@@ -13,10 +13,10 @@ import Hero from '../components/Hero'
 */
 const home = () => {
   return (
-    <>
+    <div translate='no'>
       <Nav />
       <Hero />
-      <section className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100'>
+      <section className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
         <section className='grid grid-cols-1 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-3 sm:gap-5'>
           <section>
             <div class="w-80">
@@ -175,7 +175,7 @@ const home = () => {
         </section>
         <Footer />
       </section>
-    </>
+    </div>
   )
 }
 export default home

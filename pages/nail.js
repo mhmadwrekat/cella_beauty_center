@@ -4,18 +4,12 @@ import Footer from '../components/Footer';
 import Link from "next/link";
 import { Slide, Flip, Fade } from "react-awesome-reveal";
 const nail = () => {
-//https://cdn.easyweek.io/stc-cgi/image/1000x400/f/86518/7000x4623/34b98db70f/shutterstock_400316980.jpg
   return (
         <>
-
           <Nav/>
-          
-          <section className='pt-16 bg-gradient-to-r from-white to-fuchsia-100'>
-
-
+          <section className='pt-16 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
           <div>
           <img src='https://spahopseattle.com/uploads/fnail07v4uxuz/logo/2017/12/05/1_1512449257_41_s1.jpg' class="w-full" />
-
                 <div className='hidden sm:flex'>
                     <h4 className='absolute float-right text-2xl font-semibold text-right text-sky-900 w-96 top-40 left-32'>
                     أناقة أظافرك دلالة على اهتمامكِ بنفسكِ ,
@@ -25,7 +19,6 @@ const nail = () => {
 <br></br>
 احجزي واتدللي
  </h4>
-
                 </div>
             </div>
             <section className='absolute w-3/6 text-center sm:hidden top-20'>
@@ -40,11 +33,6 @@ const nail = () => {
                     </div>
                 </section>
             </section>
-
-
-
-
-
 {/* S 1 */}
 {/* S 1 */}
 <Slide triggerOnce>

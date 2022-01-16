@@ -7,7 +7,7 @@ const others = () => {
     return (
         <>
           <Nav/>
-          <section className='pt-20 bg-gradient-to-r from-white to-fuchsia-100'>
+          <section className='pt-20 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
 
 {/* S 1 */}
 {/* S 1 */}

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
             <div className="pt-3 mx-auto border-b-2 border-pink-900 opacity-25 w-5/5 sm:w-5/5 lg:mx-0"></div>
-            <section className='py-10 justify-center ...'>
+            <section translate='no' className='py-10 justify-center ...'>
                 <section className='py-8 opacity-75 bg-fuchsia-100 align-center'>
                     <div className='grid items-center text-xl font-bold text-center sm:grid-cols-1 text-sky-900 '>
                         <div className='justify-center ...'>
@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </section></section>
-            <section class='bg-white text-sky-900 ' id='profilefoot'>
+            <section translate='no' class='bg-white text-sky-900 ' id='profilefoot'>
                 <div>
                     <div class="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-9">
                         <div class="flex flex-col items-center justify-center">

@@ -7,7 +7,7 @@ const face = () => {
     return (
         <>
           <Nav/>
-          <section className='pt-20 bg-gradient-to-r from-white to-fuchsia-100'>
+          <section translate='no' className='pt-20 bg-gradient-to-r from-white to-fuchsia-100'>
 
 {/* S 1 */}
 {/* S 1 */}
