@@ -111,30 +111,36 @@ const home = () => {
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
                     src="./assestmain/main20.jpg"
-                    onClick={()=>{window.open('./assestmain/main20.jpg')}}
+                    onClick={()=>{window.open('./assestmain/main20.jpg','_self')}}
                      />
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="hover:scale-150 block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face2.jpg" />
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="./assest/face2.jpg"
+                    onClick={()=>{window.open('./assest/face2.jpg','_self')}}
+                     />
                 </div>
                 <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover hover:scale-150 object-center w-full h-full rounded-lg"
-                    src="./assest/face3.jpg" />
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="./assest/face3.jpg" 
+                    onClick={()=>{window.open('./assest/face3.jpg','_self')}}/>
                 </div>
               </div>
               <div class="flex flex-wrap w-1/2">
                 <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center hover:scale-150 w-full h-full rounded-lg"
-                    src="../assestmain/main11.jpg" />
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="../assestmain/main11.jpg" 
+                    onClick={()=>{window.open('../assestmain/main11.jpg','_self')}}/>
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full hover:scale-150 rounded-lg"
-                    src="./assestmain/main17.jpg" />
+                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                    src="./assestmain/main17.jpg" 
+                    onClick={()=>{window.open('./assestmain/main17.jpg','_self')}}/>
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="focus:scale-150 justify-items-startblock object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main2.jpg" />
+                  <img alt="gallery" class="justify-items-startblock object-cover object-center w-full h-full rounded-lg"
+                    src="./assestmain/main2.jpg" 
+                    onClick={()=>{window.open('./assestmain/main2.jpg','_self')}}/>
                 </div>
               </div>
             </div>
@@ -147,29 +153,35 @@ const home = () => {
               <div class="flex flex-wrap w-1/2">
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main15.jpg" />
+                    src="./assestmain/main15.jpg" 
+                    onClick={()=>{window.open('./assestmain/main15.jpg','_self')}}/>
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main14.jpg" />
+                    src="./assestmain/main14.jpg" 
+                    onClick={()=>{window.open('./assestmain/main14.jpg','_self')}}/>
                 </div>
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main16.jpg" />
+                    src="./assestmain/main16.jpg" 
+                    onClick={()=>{window.open('./assestmain/main16.jpg','_self')}}/>
                 </div>
               </div>
               <div class="flex flex-wrap w-1/2">
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main27.jpg" />
+                    src="./assestmain/main27.jpg" 
+                    onClick={()=>{window.open('./assestmain/main27.jpg','_self')}}/>
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main18.jpg" />
+                    src="./assestmain/main18.jpg" 
+                    onClick={()=>{window.open('./assestmain/main18.jpg','_self')}}/>
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main10.jpg" />
+                    src="./assestmain/main10.jpg" 
+                    onClick={()=>{window.open('./assestmain/main10.jpg','_self')}}/>
                 </div>
               </div>
             </div>
