@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import { Slide, Flip, Fade } from "react-awesome-reveal";
+import Slide from "react-awesome-reveal";
 const hair = () => {
     return (
         <>
@@ -15,7 +15,6 @@ const hair = () => {
                     <br></br>دللي شعرك بلمسات مختلفة
 تساريح جديدة و فريدة
  </h4>
-
                 </div>
             </div>
             <section className='absolute w-3/6 text-center sm:hidden top-24'>
@@ -33,7 +32,7 @@ const hair = () => {
 {/* S 1 */}
 <Slide triggerOnce>
           <section class="overflow-hidden text-gray-700">
-  <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+  <div class="container px-2 py-2 mx-auto lg:pt-24">
     <div class="flex flex-wrap -m-1 md:-m-2">
       <div class="flex flex-wrap w-1/2">
         <div class="w-1/2 p-1 md:p-2">
@@ -50,12 +49,10 @@ const hair = () => {
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
-      <Flip>
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
             src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"/>
         </div>
-        </Flip>
         <div class="w-1/2 p-1 md:p-2">
           <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
             src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"/>
@@ -73,7 +70,7 @@ const hair = () => {
 {/* S 2 */}
 <Slide triggerOnce>
 <section class="overflow-hidden text-gray-700">
-  <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+  <div class="container px-2 py-2 mx-auto lg:pt-24">
     <div class="flex flex-wrap -m-1 md:-m-2">
       <div class="flex flex-wrap w-1/2">
         <div class="w-1/2 p-1 md:p-2">
