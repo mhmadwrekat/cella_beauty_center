@@ -16,7 +16,8 @@ const home = () => {
     <div translate='no'>
       <Nav />
       <Hero />
-      <section className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
+      <section className='w-full px-1 bg-fuchsia-100' translate='no'>
+      <p className='pt-10 text-3xl font-semibold text-center sm:text-5xl text-sky-900'>خدماتنا</p>
         <section className='grid grid-cols-1 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-3 sm:gap-5'>
           <section>
             <div class="w-80">
@@ -103,6 +104,10 @@ const home = () => {
             </div>
           </section>
         </section>
+</section>
+
+<section className='bg-gradient-to-r from-white to-fuchsia-100'>
+        <p className='pt-10 text-3xl font-semibold text-center sm:text-5xl text-sky-900'>معرض الصور</p>
         {/* Gallery 1 */}
         <section class="overflow-hidden text-gray-700">
           <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-32">
@@ -193,3 +198,8 @@ const home = () => {
   )
 }
 export default home
+/*
+<div className='px-20'>
+<p class="bg-sky-900 opacity-50 h-0.5 rounded-full"></p>
+</div>
+*/
