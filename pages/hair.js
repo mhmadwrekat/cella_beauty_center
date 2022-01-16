@@ -35,29 +35,35 @@ const hair = () => {
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair1.jpg" />
+                      src="./assesthair/hair1.jpg"
+                      onClick={() => { window.open('./assesthair/hair1.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair3.jpg" />
+                      src="./assesthair/hair3.jpg"
+                      onClick={() => { window.open('./assesthair/hair3.jpg', '_self') }} />
                   </div>
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair2.jpg" />
+                      src="./assesthair/hair2.jpg"
+                      onClick={() => { window.open('./assesthair/hair2.jpg', '_self') }} />
                   </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair10.jpg" />
+                      src="./assesthair/hair10.jpg"
+                      onClick={() => { window.open('./assesthair/hair10.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair8.jpg" />
+                      src="./assesthair/hair8.jpg"
+                      onClick={() => { window.open('./assesthair/hair8.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair4.jpg" />
+                      src="./assesthair/hair4.jpg"
+                      onClick={() => { window.open('./assesthair/hair4.jpg', '_self') }} />
                   </div>
                 </div>
               </div>
@@ -72,29 +78,35 @@ const hair = () => {
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair13.jpg" />
+                      src="./assesthair/hair13.jpg"
+                      onClick={() => { window.open('./assesthair/hair13.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair7.jpg" />
+                      src="./assesthair/hair7.jpg"
+                      onClick={() => { window.open('./assesthair/hair7.jpg', '_self') }} />
                   </div>
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair6.jpg" />
+                      src="./assesthair/hair6.jpg"
+                      onClick={() => { window.open('./assesthair/hair6.jpg', '_self') }} />
                   </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair5.jpg" />
+                      src="./assesthair/hair5.jpg"
+                      onClick={() => { window.open('./assesthair/hair5.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair15.jpg" />
+                      src="./assesthair/hair15.jpg"
+                      onClick={() => { window.open('./assesthair/hair15.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair16.jpg" />
+                      src="./assesthair/hair16.jpg"
+                      onClick={() => { window.open('./assesthair/hair16.jpg', '_self') }} />
                   </div>
                 </div>
               </div>
@@ -109,29 +121,35 @@ const hair = () => {
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair20.jpg" />
+                      src="./assesthair/hair20.jpg"
+                      onClick={() => { window.open('./assesthair/hair20.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair19.jpg" />
+                      src="./assesthair/hair19.jpg"
+                      onClick={() => { window.open('./assesthair/hair19.jpg', '_self') }} />
                   </div>
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair14.jpg" />
+                      src="./assesthair/hair14.jpg"
+                      onClick={() => { window.open('./assesthair/hair14.jpg', '_self') }} />
                   </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair28.jpg" />
+                      src="./assesthair/hair28.jpg"
+                      onClick={() => { window.open('./assesthair/hair28.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair29.jpg" />
+                      src="./assesthair/hair29.jpg"
+                      onClick={() => { window.open('./assesthair/hair29.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair52.jpg" />
+                      src="./assesthair/hair52.jpg"
+                      onClick={() => { window.open('./assesthair/hair52.jpg', '_self') }} />
                   </div>
                 </div>
               </div>
@@ -146,29 +164,35 @@ const hair = () => {
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair47.jpg" />
+                      src="./assesthair/hair47.jpg"
+                      onClick={() => { window.open('./assesthair/hair47.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair48.jpg" />
+                      src="./assesthair/hair48.jpg"
+                      onClick={() => { window.open('./assesthair/hair48.jpg', '_self') }} />
                   </div>
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair45.jpg" />
+                      src="./assesthair/hair45.jpg"
+                      onClick={() => { window.open('./assesthair/hair45.jpg', '_self') }} />
                   </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair46.jpg" />
+                      src="./assesthair/hair46.jpg"
+                      onClick={() => { window.open('./assesthair/hair46.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair49.jpg" />
+                      src="./assesthair/hair49.jpg"
+                      onClick={() => { window.open('./assesthair/hair49.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair50.jpg" />
+                      src="./assesthair/hair50.jpg"
+                      onClick={() => { window.open('./assesthair/hair50.jpg', '_self') }} />
                   </div>
                 </div>
               </div>
@@ -183,29 +207,35 @@ const hair = () => {
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair24.jpg" />
+                      src="./assesthair/hair24.jpg"
+                      onClick={() => { window.open('./assesthair/hair24.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair30.jpg" />
+                      src="./assesthair/hair30.jpg"
+                      onClick={() => { window.open('./assesthair/hair30.jpg', '_self') }} />
                   </div>
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair26.jpg" />
+                      src="./assesthair/hair26.jpg"
+                      onClick={() => { window.open('./assesthair/hair26.jpg', '_self') }} />
                   </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair27.jpg" />
+                      src="./assesthair/hair27.jpg"
+                      onClick={() => { window.open('./assesthair/hair27.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair42.jpg" />
+                      src="./assesthair/hair42.jpg"
+                      onClick={() => { window.open('./assesthair/hair42.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair44.jpg" />
+                      src="./assesthair/hair44.jpg"
+                      onClick={() => { window.open('./assesthair/hair44.jpg', '_self') }} />
                   </div>
                 </div>
               </div>
@@ -220,29 +250,35 @@ const hair = () => {
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair21.jpg" />
+                      src="./assesthair/hair21.jpg"
+                      onClick={() => { window.open('./assesthair/hair21.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair17.jpg" />
+                      src="./assesthair/hair17.jpg"
+                      onClick={() => { window.open('./assesthair/hair17.jpg', '_self') }} />
                   </div>
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair18.jpg" />
+                      src="./assesthair/hair18.jpg"
+                      onClick={() => { window.open('./assesthair/hair18.jpg', '_self') }} />
                   </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair9.jpg" />
+                      src="./assesthair/hair9.jpg"
+                      onClick={() => { window.open('./assesthair/hair9.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair22.jpg" />
+                      src="./assesthair/hair22.jpg"
+                      onClick={() => { window.open('./assesthair/hair22.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair25.jpg" />
+                      src="./assesthair/hair25.jpg"
+                      onClick={() => { window.open('./assesthair/hair25.jpg', '_self') }} />
                   </div>
                 </div>
               </div>
@@ -257,29 +293,35 @@ const hair = () => {
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair32.jpg" />
+                      src="./assesthair/hair32.jpg"
+                      onClick={() => { window.open('./assesthair/hair32.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair33.jpg" />
+                      src="./assesthair/hair33.jpg"
+                      onClick={() => { window.open('./assesthair/hair33.jpg', '_self') }} />
                   </div>
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair12.jpg" />
+                      src="./assesthair/hair12.jpg"
+                      onClick={() => { window.open('./assesthair/hair12.jpg', '_self') }} />
                   </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair34.jpg" />
+                      src="./assesthair/hair34.jpg"
+                      onClick={() => { window.open('./assesthair/hair34.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair31.jpg" />
+                      src="./assesthair/hair31.jpg"
+                      onClick={() => { window.open('./assesthair/hair31.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair35.jpg" />
+                      src="./assesthair/hair35.jpg"
+                      onClick={() => { window.open('./assesthair/hair35.jpg', '_self') }} />
                   </div>
                 </div>
               </div>
@@ -294,29 +336,35 @@ const hair = () => {
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair39.jpg" />
+                      src="./assesthair/hair39.jpg"
+                      onClick={() => { window.open('./assesthair/hair39.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair41.jpg" />
+                      src="./assesthair/hair41.jpg"
+                      onClick={() => { window.open('./assesthair/hair41.jpg', '_self') }} />
                   </div>
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair36.jpg" />
+                      src="./assesthair/hair36.jpg"
+                      onClick={() => { window.open('./assesthair/hair36.jpg', '_self') }} />
                   </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                   <div class="w-full p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair51.jpg" />
+                      src="./assesthair/hair51.jpg"
+                      onClick={() => { window.open('./assesthair/hair51.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair38.jpg" />
+                      src="./assesthair/hair38.jpg"
+                      onClick={() => { window.open('./assesthair/hair38.jpg', '_self') }} />
                   </div>
                   <div class="w-1/2 p-1 md:p-2">
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                      src="./assesthair/hair43.jpg" />
+                      src="./assesthair/hair43.jpg"
+                      onClick={() => { window.open('./assesthair/hair43.jpg', '_self') }} />
                   </div>
                 </div>
               </div>
