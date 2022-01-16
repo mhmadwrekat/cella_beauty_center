@@ -3,7 +3,6 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <>
-            <div className="pt-3 mx-auto border-b-2 border-pink-900 opacity-25 w-5/5 sm:w-5/5 lg:mx-0"></div>
             <section translate='no' className='py-10 justify-center ...'>
                 <section className='py-8 opacity-75 bg-fuchsia-100 align-center'>
                     <div className='grid items-center text-xl font-bold text-center sm:grid-cols-1 text-sky-900 '>
