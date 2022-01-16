@@ -6,7 +6,7 @@ const hair = () => {
   return (
     <>
       <Nav />
-      <section className='pt-20 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
+      <section className='pt-16 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
         <div>
           <img src='https://jenhovanshair.com/wp-content/uploads/2013/11/slide-fall-3.jpg' class="w-full" />
           <div className='hidden sm:flex'>
@@ -16,7 +16,7 @@ const hair = () => {
             </h4>
           </div>
         </div>
-        <section className='absolute w-3/6 text-center sm:hidden top-24'>
+        <section className='absolute w-3/6 text-center sm:hidden top-20'>
           <section className='relative'>
             <div class="relative py-5 sm:hidden overflow-hidden rounded-lg  cursor-pointer">
               <h4 class="mb-3 text-sm font-semibold text-center tracking-tight text-sky-900">

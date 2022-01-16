@@ -1,8 +1,7 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import Link from "next/link";
-import { Slide, Flip, Fade } from "react-awesome-reveal";
+import Slide from "react-awesome-reveal";
 const nail = () => {
   return (
         <>
@@ -21,10 +20,10 @@ const nail = () => {
  </h4>
                 </div>
             </div>
-            <section className='absolute w-4/6 text-center sm:hidden top-20 left-5'>
+            <section className='absolute w-full text-center sm:hidden top-24'>
                 <section className='relative'>
                     <div class="relative sm:hidden overflow-hidden rounded-lg cursor-pointer">
-                        <h4 class="mb-3 text-sm font-semibold text-center tracking-tight bg-white opacity-75 rounded-2xl text-sky-900 px-1 py-1">
+                        <h4 class="mb-3 text-sm font-semibold text-center tracking-tight bg-white opacity-75 text-sky-900 px-1 py-1">
                           <h4 className='px-1 font-semibold text-center text-sky-900'>
                           أناقة أظافرك دلالة على اهتمامكِ بنفسكِ ,
 اجعلي أظافركِ جذابه ومختلفة وذات مظهر جميل وملفت

@@ -39,10 +39,12 @@ const Nav = () => {
                   <img className='w-2/6 sm:w-1/6 hover:scale-110 cursor-grab'
                     src='./cellalogo.jpg' />
                 </Link>
-                        <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-sm sm:text-xl">
+                        <ul class="flex flex-col mt-3 md:flex-row md:space-x-8 md:mt-0 text-sm sm:text-xl">
                             <Link href='/'>
                                 <li>
-                                    <p translate='no' class="cursor-grab hover:scale-110 block py-2 pr-4 font-bold pl-3 text-sky-900 hover:text-violet-600 rounded md:bg-transparent md:p-0">الرئيسية</p>
+<p translate='no' 
+class="cursor-grab hover:scale-110 block py-2 pr-4 font-bold pl-3 text-sky-900 
+hover:text-violet-600 rounded md:bg-transparent md:p-0">الرئيسية</p>
                                 </li>
                             </Link>
                         </ul>
