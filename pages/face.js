@@ -93,7 +93,7 @@ const face = () => {
 
 
         <section>
-            <div class="w-32 sm:w-60">
+            <div class="w-36 sm:w-60">
                 <div class="relative overflow-hidden rounded-3xl shadow-2xl">
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
@@ -110,7 +110,7 @@ const face = () => {
             </div>
           </section>
           <section>
-            <div class="w-32 sm:w-60">
+            <div class="w-36 sm:w-60">
                 <div class="relative overflow-hidden rounded-3xl shadow-2xl">
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
@@ -127,7 +127,7 @@ const face = () => {
             </div>
           </section>
           <section>
-            <div class="w-32 sm:w-60">
+            <div class="w-36 sm:w-60">
                 <div class="relative overflow-hidden rounded-3xl shadow-2xl">
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
@@ -144,7 +144,7 @@ const face = () => {
             </div>
           </section>
                   <section>
-            <div class="w-32 sm:w-60">
+            <div class="w-36 sm:w-60">
                 <div class="relative overflow-hidden rounded-3xl shadow-2xl">
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
