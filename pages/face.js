@@ -98,15 +98,32 @@ const face = () => {
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
-<p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
-                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
-              </p>
                   <p className=' py-0.5 pl-2'>
                   <span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
   <span class="mr-1 sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-green-600 rounded-full">اطلبه الان</span>
 </a>                  </p>
                 </div>
+                <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
+                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="w-36 sm:w-60">
+                <div class="relative overflow-hidden rounded-3xl shadow-2xl">
+                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
+                  <img class="object-cover w-full sm:h-48 h-28"
+                  src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
+                  <p className=' py-0.5 pl-2'>
+                  <span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
+<a className='float-right' href='https://wa.me/+962782950960'>
+  <span class="mr-1 sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-green-600 rounded-full">اطلبه الان</span>
+</a></p>
+                </div>
+                <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
+                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
+              </p>
             </div>
           </section>
           <section>
@@ -118,29 +135,12 @@ const face = () => {
 <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
                 خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
               </p>
-                  <p className=' py-0.5 pl-2'>
+                </div>
+                <p className=' py-0.5 pl-2'>
                   <span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
   <span class="mr-1 sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-green-600 rounded-full">اطلبه الان</span>
 </a>                  </p>
-                </div>
-            </div>
-          </section>
-          <section>
-            <div class="w-36 sm:w-60">
-                <div class="relative overflow-hidden rounded-3xl shadow-2xl">
-                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
-                  <img class="object-cover w-full sm:h-48 h-28"
-                  src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
-<p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
-                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
-              </p>
-                  <p className=' py-0.5 pl-2'>
-                  <span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
-<a href='https://wa.me/+962782950960'>
-  <span class="mr-1 sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-green-600 rounded-full">اطلبه الان</span>
-</a>                  </p>
-                </div>
             </div>
           </section>
                   <section>
@@ -149,15 +149,15 @@ const face = () => {
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
-<p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
-                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
-              </p>
-                  <p className=' py-0.5 pl-2'>
+                  <p className='text-center py-0.5 pl-2'>
                   <span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
   <span class="mr-1 sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-green-600 rounded-full">اطلبه الان</span>
 </a>                  </p>
                 </div>
+                <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
+                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
+              </p>
             </div>
           </section>
 
