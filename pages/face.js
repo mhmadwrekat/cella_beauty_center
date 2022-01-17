@@ -16,7 +16,7 @@ const face = () => {
             </h4>
           </div>
         </div>
-        <section className='absolute w-full text-center sm:hidden top-16'>
+        <section className='absolute w-full text-center sm:hidden top-20'>
           <section className='relative'>
             <div class="relative py-5 sm:hidden overflow-hidden rounded-lg  cursor-pointer">
               <h4 class="mb-3 text-sm font-semibold text-center tracking-tight text-sky-900">
