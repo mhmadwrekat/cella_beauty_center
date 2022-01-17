@@ -97,8 +97,8 @@ const face = () => {
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
 <span class=" sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
-<span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">🛒</span>
-</a>          
+<span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">🛍️ 🛒</span>
+</a>
                 </div>
                 <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
                 خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
