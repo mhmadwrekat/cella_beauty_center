@@ -17,7 +17,7 @@ const home = () => {
       <Nav />
       <Hero />
       <section className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
-      <p className='pt-10 text-3xl font-semibold text-center sm:text-5xl text-sky-900'>خدماتنا</p>
+      <p className='pt-10 text-4xl font-semibold text-center sm:text-5xl text-sky-900'>خدماتنا</p>
         <section className='grid grid-cols-1 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-3 sm:gap-5'>
           <section>
             <div class="w-80">
@@ -104,7 +104,7 @@ const home = () => {
             </div>
           </section>
         </section>
-        <p className='pt-10 text-3xl font-semibold text-center sm:text-5xl text-sky-900'>معرض الصور</p>
+        <p className='pt-10 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>معرض الصور</p>
         {/* Gallery 1 */}
         <section class="overflow-hidden text-gray-700">
           <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-32">
