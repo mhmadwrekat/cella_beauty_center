@@ -87,7 +87,7 @@ const face = () => {
 
 
 
-        <p className='pt-10 text-4xl font-semibold text-center sm:text-5xl text-sky-900'>منتجات برود افريكا</p>
+        <p className='pt-10 text-4xl font-semibold text-center sm:text-5xl text-sky-900'>منتجات برودافريكا</p>
         <section className='grid grid-cols-2 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-4 sm:gap-5'>
  
 
