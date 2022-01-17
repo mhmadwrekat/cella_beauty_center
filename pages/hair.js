@@ -371,8 +371,8 @@ const hair = () => {
             </div>
           </section>
         </Slide>
+        <Footer />
       </section>
-      <Footer />
     </>
   )
 }

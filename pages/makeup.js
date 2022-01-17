@@ -393,8 +393,8 @@ const makeup = () => {
   </div>
 </section>
 </Slide>
+<Footer/>  
           </section>
-          <Footer/>  
         </>
     )
 }

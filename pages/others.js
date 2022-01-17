@@ -392,8 +392,8 @@ const others = () => {
   </div>
 </section>
 </Slide>
+<Footer/>  
           </section>
-          <Footer/>  
         </>
     )
 }

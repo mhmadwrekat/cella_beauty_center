@@ -414,8 +414,8 @@ const nail = () => {
 </div>
 </section>
 </Slide>
+<Footer/>  
           </section>
-          <Footer/>  
         </>
     )
 }
