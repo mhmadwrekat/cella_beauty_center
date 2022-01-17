@@ -12,7 +12,7 @@ const massage = () => {
           <div>
           <img src='./assestmain/main21.jpg' class="w-full" />
                 <div className='hidden sm:flex'>
-                    <h4 className='absolute float-right px-5 py-5 text-2xl font-semibold text-right bg-white opacity-75 rounded-2xl text-sky-900 w-96 top-60 right-36'>
+                    <h4 className='absolute float-right px-6 py-6 text-3xl font-semibold text-right bg-white opacity-75 rounded-2xl text-sky-900 w-96 top-60 right-36'>
                     من اهم 
                     فوائد المساج يزيد من نشاط الدورة الدموية
                     والتخلص من الأرق
@@ -22,7 +22,7 @@ const massage = () => {
  </h4>
                 </div>
             </div>
-            <section className='absolute w-4/6 py-2 text-center bg-white opacity-75 sm:hidden rounded-2xl top-20 right-1'>
+            <section className='absolute w-4/6 py-2 text-center bg-white opacity-75 sm:hidden rounded-2xl top-24 right-1'>
                 <section className='relative'>
                     <div class="relative sm:hidden overflow-hidden rounded-lg  cursor-pointer">
                         <h4 class="mb-3 text-sm font-semibold text-center tracking-tight text-sky-900">
