@@ -45,40 +45,187 @@ const massage = () => {
 <div class="flex flex-wrap w-1/2">
 <div class="w-1/2 p-1 md:p-2">
 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-          src="./assestnail/nail55.jpg"
-          onClick={()=>{window.open('./assestnail/nail55.jpg','_self')}}
+          src="./assestmassage/massage11.jpg"
+          onClick={()=>{window.open('./assestmassage/massage11.jpg','_self')}}
           />
 </div>
 <div class="w-1/2 p-1 md:p-2">
 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-          src="./assestnail/nail56.jpg" 
-          onClick={()=>{window.open('./assestnail/nail56.jpg','_self')}}
+          src="./assestmassage/massage21.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage21.jpg','_self')}}
           />
 </div>
 <div class="w-full p-1 md:p-2">
 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-          src="./assestnail/nail51.jpg" 
-          onClick={()=>{window.open('./assestnail/nail51.jpg','_self')}}
+          src="./assestmassage/massage20.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage20.jpg','_self')}}
           />
 </div>
 </div>
 <div class="flex flex-wrap w-1/2">
 <div class="w-full p-1 md:p-2">
 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-          src="./assestnail/nail57.jpg" 
-          onClick={()=>{window.open('./assestnail/nail57.jpg','_self')}}
+          src="./assestmassage/massage24.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage24.jpg','_self')}}
           />
 </div>
 <div class="w-1/2 p-1 md:p-2">
 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-          src="./assestnail/nail58.jpg" 
-          onClick={()=>{window.open('./assestnail/nail58.jpg','_self')}}
+          src="./assestmassage/massage13.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage13.jpg','_self')}}
           />
 </div>
 <div class="w-1/2 p-1 md:p-2">
 <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-          src="./assestnail/nail59.jpg" 
-          onClick={()=>{window.open('./assestnail/nail59.jpg','_self')}}
+          src="./assestmassage/massage19.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage19.jpg','_self')}}
+          />
+</div>
+</div>
+</div>
+</div>
+</section>
+</Slide>
+{/* S 2 */}
+<Slide triggerOnce>
+<section class="overflow-hidden text-gray-700">
+<div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
+<div class="flex flex-wrap -m-1 md:-m-2">
+<div class="flex flex-wrap w-1/2">
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage4.jpg"
+          onClick={()=>{window.open('./assestmassage/massage4.jpg','_self')}}
+          />
+</div>
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage7.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage7.jpg','_self')}}
+          />
+</div>
+<div class="w-full p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage15.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage15.jpg','_self')}}
+          />
+</div>
+</div>
+<div class="flex flex-wrap w-1/2">
+<div class="w-full p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage16.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage16.jpg','_self')}}
+          />
+</div>
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage8.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage8.jpg','_self')}}
+          />
+</div>
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage10.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage10.jpg','_self')}}
+          />
+</div>
+</div>
+</div>
+</div>
+</section>
+</Slide>
+{/* S 3 */}
+<Slide triggerOnce>
+<section class="overflow-hidden text-gray-700">
+<div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
+<div class="flex flex-wrap -m-1 md:-m-2">
+<div class="flex flex-wrap w-1/2">
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage1.jpg"
+          onClick={()=>{window.open('./assestmassage/massage1.jpg','_self')}}
+          />
+</div>
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage18.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage18.jpg','_self')}}
+          />
+</div>
+<div class="w-full p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage6.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage6.jpg','_self')}}
+          />
+</div>
+</div>
+<div class="flex flex-wrap w-1/2">
+<div class="w-full p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage9.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage9.jpg','_self')}}
+          />
+</div>
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage5.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage5.jpg','_self')}}
+          />
+</div>
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage3.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage3.jpg','_self')}}
+          />
+</div>
+</div>
+</div>
+</div>
+</section>
+</Slide>
+{/* S 4 */}
+<Slide triggerOnce>
+<section class="overflow-hidden text-gray-700">
+<div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
+<div class="flex flex-wrap -m-1 md:-m-2">
+<div class="flex flex-wrap w-1/2">
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage17.jpg"
+          onClick={()=>{window.open('./assestmassage/massage17.jpg','_self')}}
+          />
+</div>
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage2.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage2.jpg','_self')}}
+          />
+</div>
+<div class="w-full p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage22.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage22.jpg','_self')}}
+          />
+</div>
+</div>
+<div class="flex flex-wrap w-1/2">
+<div class="w-full p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage12.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage12.jpg','_self')}}
+          />
+</div>
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage23.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage23.jpg','_self')}}
+          />
+</div>
+<div class="w-1/2 p-1 md:p-2">
+<img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+          src="./assestmassage/massage14.jpg" 
+          onClick={()=>{window.open('./assestmassage/massage14.jpg','_self')}}
           />
 </div>
 </div>
@@ -87,7 +234,9 @@ const massage = () => {
 </section>
 </Slide>
 {/*
-
+1,2,3,4,5,6,7,8,9,10
+11,12,13,14,15,16,17,18,19,20,
+21,22,23,24
 */}
           <Footer/>  
           </section>
