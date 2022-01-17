@@ -124,8 +124,8 @@ const home = () => {
                 </div>
                 <div class="w-full p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face3.jpg" 
-                    onClick={()=>{window.open('./assest/face3.jpg','_self')}}/>
+                    src="./assest/face6.jpg" 
+                    onClick={()=>{window.open('./assest/face6.jpg','_self')}}/>
                 </div>
               </div>
               <div class="flex flex-wrap w-1/2">
@@ -155,8 +155,8 @@ const home = () => {
               <div class="flex flex-wrap w-1/2">
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main15.jpg" 
-                    onClick={()=>{window.open('./assestmain/main15.jpg','_self')}}/>
+                    src="./assesthair/hair29.jpg" 
+                    onClick={()=>{window.open('./assesthair/hair29.jpg','_self')}}/>
                 </div>
                 <div class="w-1/2 p-1 md:p-2">
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"

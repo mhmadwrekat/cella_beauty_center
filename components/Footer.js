@@ -14,7 +14,7 @@ const Footer = () => {
                                 ساعات العمل</p>
                             <p className='text-sm sm:text-xl'> 9:00 am - 7:00 pm</p>
                         </div>
-                        <div className='sm:pr-5 pr-2 text-sm sm:text-xl sm:pt-7 pt-4  grid justify-center ...'>
+                        <div className='sm:pr-5 pr-1 text-sm sm:text-xl sm:pt-7 pt-4  grid justify-center ...'>
                             <div class="flex flex-wrap justify-center space-x-2 items-end">
                                 <Link href='tel:0782950960'>
                                     <span
