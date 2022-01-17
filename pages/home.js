@@ -118,14 +118,12 @@ const home = () => {
 <section className='grid grid-cols-1 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-1 sm:gap-5'>
           <section>
             <div class="w-80">
-              <Link href="/hair">
+              <Link href="/face">
                 <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
-                <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">الشعر</h4>
+                <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">برودافريكا</h4>
                   <img class="object-cover w-full h-48"
-                    src="https://elianassalon.com/wp-content/uploads/sites/774/2019/08/wallpaperm.jpg" alt="Hair" />
-              <p className='px-4 py-2 font-mono font-bold text-center text-medium text-sky-900'>
-                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
-              </p>
+                    src="./assestafrica/africa1.jpg" alt="Hair" />
+              
                 </div>
               </Link>
               
