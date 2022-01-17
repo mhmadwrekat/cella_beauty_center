@@ -96,12 +96,14 @@ const face = () => {
 
         <section>
             <div class="w-32 sm:w-60">
-                <div class="relative overflow-hidden shadow-2xl cursor-pointer rounded-xl">
+                <div class="relative overflow-hidden shadow-3xl cursor-pointer rounded-xl">
+                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
+                      الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
-                  <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
-                  <p className='float-left py-1 text-sm font-semibold text-gray-500'>15JD</p>
-                      الشعر</h4>
+                  <p className='float-right py-0.5 pr-0.5'>
+<span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
+</p>
                 </div>
               <p className='px-4 pt-3 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
                 خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
@@ -110,26 +112,46 @@ const face = () => {
           </section>
           <section>
             <div class="w-32 sm:w-60">
-                <div class="relative overflow-hidden shadow-2xl cursor-pointer rounded-xl">
+                <div class="relative overflow-hidden shadow-3xl cursor-pointer rounded-xl">
+                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
+                      الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
-                  <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
-                  <p className='float-left py-1 text-xs font-semibold text-gray-500'>15JD</p>
-                      الشعر</h4>
+                  <p className='float-right py-0.5 pr-0.5'>
+<span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
+</p>
                 </div>
-              <p className='px-4 pt-3 font-mono text-sm font-bold text-center sm:text-medium text-sky-900'>
+              <p className='px-4 pt-3 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
                 خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
               </p>
             </div>
           </section>
-          <section>
+                  <section>
             <div class="w-32 sm:w-60">
-                <div class="relative overflow-hidden shadow-2xl cursor-pointer rounded-xl">
+                <div class="relative overflow-hidden shadow-3xl cursor-pointer rounded-xl">
+                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
+                      الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
-                  <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
-                  <p className='float-left py-1 text-sm font-semibold text-gray-500'>15JD</p>
+                  <p className='float-right py-0.5 pr-0.5'>
+<span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
+</p>
+                </div>
+              <p className='px-4 pt-3 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
+                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
+              </p>
+            </div>
+          </section>
+                  <section>
+            <div class="w-32 sm:w-60">
+                <div class="relative overflow-hidden shadow-3xl cursor-pointer rounded-xl">
+                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
                       الشعر</h4>
+                  <img class="object-cover w-full sm:h-48 h-28"
+                  src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
+                  <p className='float-right py-0.5 pr-0.5'>
+<span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
+</p>
                 </div>
               <p className='px-4 pt-3 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
                 خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
@@ -138,12 +160,30 @@ const face = () => {
           </section>
           <section>
             <div class="w-32 sm:w-60">
-                <div class="relative overflow-hidden shadow-2xl cursor-pointer rounded-xl">
+                <div class="relative overflow-hidden shadow-3xl cursor-pointer rounded-xl">
+                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
+                      الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
-                  <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
-                  <p className='float-left py-1 text-sm font-semibold text-gray-500'>15JD</p>
+                  <p className='float-right py-0.5 pr-0.5'>
+<span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
+</p>
+                </div>
+              <p className='px-4 pt-3 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
+                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="w-32 sm:w-60">
+                <div class="relative overflow-hidden shadow-3xl cursor-pointer rounded-xl">
+                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
                       الشعر</h4>
+                  <img class="object-cover w-full sm:h-48 h-28"
+                  src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
+                  <p className='float-right py-0.5 pr-0.5'>
+<span class="mr-1 sm:px-2 sm:py-1 py-0 px-1 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
+</p>
                 </div>
               <p className='px-4 pt-3 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
                 خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
