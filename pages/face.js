@@ -97,7 +97,7 @@ const face = () => {
                 <div class="relative overflow-hidden rounded-xl shadow-2xl">
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
-                  src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
+                  src="./assestafrica/africa1.jpg" alt="Face" />
 <p className='pl-1'>
 <span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
@@ -117,7 +117,7 @@ const face = () => {
                 <div class="relative overflow-hidden rounded-xl shadow-2xl">
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
-                  src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
+                  src="./assestafrica/africa2.jpg" alt="Face" />
 <p className='pl-1'>
 <span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
@@ -137,7 +137,7 @@ const face = () => {
                 <div class="relative overflow-hidden rounded-xl shadow-2xl">
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
                   <img class="object-cover w-full sm:h-48 h-28"
-                  src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
+                  src="./assestafrica/africa3.jpg" alt="Face" />
 <p className='pl-1'>
 <span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
