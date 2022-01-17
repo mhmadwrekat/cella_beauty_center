@@ -99,7 +99,7 @@ const face = () => {
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="./assestafrica/africa1.jpg" alt="Face" />
 <p className='pl-1'>
-<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-600 rounded-full">15JD</span>
+<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-300 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
 <span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
 <img src='https://cdn-icons-png.flaticon.com/512/3523/3523887.png' className='w-5 h-5'></img>
@@ -119,7 +119,7 @@ const face = () => {
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="./assestafrica/africa2.jpg" alt="Face" />
 <p className='pl-1'>
-<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-green-600 rounded-full">15JD</span>
+<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-300 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
 <span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
 <img src='https://cdn-icons-png.flaticon.com/512/3523/3523887.png' className='w-5 h-5'></img>
@@ -139,27 +139,7 @@ const face = () => {
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="./assestafrica/africa3.jpg" alt="Face" />
 <p className='pl-1'>
-<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-500 rounded-full">15JD</span>
-<a href='https://wa.me/+962782950960'>
-<span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
-<img src='https://cdn-icons-png.flaticon.com/512/3523/3523887.png' className='w-5 h-5'></img>
-</span>
-</a>
-</p>
-                </div>
-                <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
-                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
-              </p>
-            </div>
-          </section>
-          <section>
-            <div class="w-36 sm:w-60">
-                <div class="relative overflow-hidden rounded-xl shadow-2xl">
-                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
-                  <img class="object-cover w-full sm:h-48 h-28"
-                  src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
-<p className='pl-1'>
-<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-400 rounded-full">15JD</span>
+<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-300 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
 <span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
 <img src='https://cdn-icons-png.flaticon.com/512/3523/3523887.png' className='w-5 h-5'></img>
@@ -199,7 +179,7 @@ const face = () => {
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
 <p className='pl-1'>
-<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-700 rounded-full">15JD</span>
+<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-300 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
 <span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
 <img src='https://cdn-icons-png.flaticon.com/512/3523/3523887.png' className='w-5 h-5'></img>
@@ -219,7 +199,7 @@ const face = () => {
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
 <p className='pl-1'>
-<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-200 rounded-full">15JD</span>
+<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-300 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
 <span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
 <img src='https://cdn-icons-png.flaticon.com/512/3523/3523887.png' className='w-5 h-5'></img>
@@ -239,7 +219,27 @@ const face = () => {
                   <img class="object-cover w-full sm:h-48 h-28"
                   src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
 <p className='pl-1'>
-<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-800 rounded-full">15JD</span>
+<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-300 rounded-full">15JD</span>
+<a href='https://wa.me/+962782950960'>
+<span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
+<img src='https://cdn-icons-png.flaticon.com/512/3523/3523887.png' className='w-5 h-5'></img>
+</span>
+</a>
+</p>
+                </div>
+                <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
+                خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
+              </p>
+            </div>
+          </section>
+          <section>
+            <div class="w-36 sm:w-60">
+                <div class="relative overflow-hidden rounded-xl shadow-2xl">
+                <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">الشعر</h4>
+                  <img class="object-cover w-full sm:h-48 h-28"
+                  src="https://pbs.twimg.com/media/E3BF7PZXIAcBLGT?format=jpg&name=4096x4096" alt="Face" />
+<p className='pl-1'>
+<span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-300 rounded-full">15JD</span>
 <a href='https://wa.me/+962782950960'>
 <span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
 <img src='https://cdn-icons-png.flaticon.com/512/3523/3523887.png' className='w-5 h-5'></img>
