@@ -45,7 +45,7 @@ const Footer = () => {
                                     <img src='./assest/facebook.png'
                                         className='w-6 h-6 fill-curren' />
                                 </a>
-                                <a className="rounded-full hover:scale-125" href="https://www.instagram.com/mhmadwrekatt?r=nametag"
+                                <a className="rounded-full hover:scale-125" href="https://www.instagram.com/cella_center"
                                     data-tippy-content="Instagram">
                                     <img src='./assest/instagram.png'
                                         className='w-6 h-6 fill-current' /></a>
