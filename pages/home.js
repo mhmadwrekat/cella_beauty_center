@@ -23,9 +23,9 @@ const home = () => {
             <div class="w-80">
               <Link href="/hair">
                 <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
+                <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">الشعر</h4>
                   <img class="object-cover w-full h-48"
                     src="https://elianassalon.com/wp-content/uploads/sites/774/2019/08/wallpaperm.jpg" alt="Hair" />
-                  <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">الشعر</h4>
                 </div>
               </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
@@ -37,9 +37,9 @@ const home = () => {
             <div class="w-80">
               <Link href="/nail">
                 <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
+                <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">الأظافر</h4>
                   <img class="object-cover w-full h-48"
                     src="./assest/nails1.jpg" alt="Nails" />
-                  <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">الأظافر</h4>
                 </div>
               </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
@@ -51,9 +51,9 @@ const home = () => {
             <div class="w-80">
             <Link href="/face">
               <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
+              <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">البشرة</h4>
                 <img class="object-cover w-full h-48"
                   src="./assest/face5.jpg" alt="Face" />
-                <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">البشرة</h4>
               </div>
               </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
@@ -65,9 +65,9 @@ const home = () => {
             <div class="w-80">
             <Link href="/massage">
               <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
+              <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">المساج</h4>
                 <img class="object-cover w-full h-48"
                   src="./assest/masag.jpg" alt="Masag" />
-                <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">المساج</h4>
               </div>
               </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
@@ -79,9 +79,9 @@ const home = () => {
             <div class="w-80">
             <Link href="/makeup">
               <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
+              <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">المكياج</h4>
                 <img class="object-cover w-full h-48"
                   src="./makeup.jpg" alt="Makeup" />
-                <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">المكياج</h4>
               </div>
               </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
@@ -93,9 +93,9 @@ const home = () => {
             <div class="w-80">
             <Link href="/others">
               <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
+              <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">خدمات اخرى</h4>
                 <img class="object-cover w-full h-48"
                   src="./cella6.jpg" alt="others" />
-                <h4 class="mb-3 text-2xl font-semibold text-center tracking-tight text-sky-900">خدمات اخرى</h4>
               </div>
               </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
