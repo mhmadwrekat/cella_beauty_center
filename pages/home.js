@@ -26,11 +26,12 @@ const home = () => {
                 <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">الشعر</h4>
                   <img class="object-cover w-full h-48"
                     src="https://elianassalon.com/wp-content/uploads/sites/774/2019/08/wallpaperm.jpg" alt="Hair" />
-                </div>
-              </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 خدماتنا هي وسيلة رائعة للتراجع عن صخب الحياة اليومية في عمان
               </p>
+                </div>
+              </Link>
+              
             </div>
           </section>
           <section>
@@ -40,11 +41,12 @@ const home = () => {
                 <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">الأظافر</h4>
                   <img class="object-cover w-full h-48"
                     src="./assest/nails1.jpg" alt="Nails" />
-                </div>
-              </Link>
-              <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
+             <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 من لحظة دخولك الباب ، ينصب تركيزنا على راحتك التامة
                 نحن خبراء في ما نقوم به</p>
+                </div>
+              </Link>
+              
             </div>
           </section>
           <section>
@@ -54,11 +56,12 @@ const home = () => {
               <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">البشرة</h4>
                 <img class="object-cover w-full h-48"
                   src="./assest/face5.jpg" alt="Face" />
-              </div>
-              </Link>
-              <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
+             <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 لقد ميزنا أنفسنا في كل جانب من جوانب خدماتنا ومنتجاتنا وأجواءنا
               </p>
+              </div>
+              </Link>
+              
             </div>
           </section>
           <section>
@@ -68,11 +71,12 @@ const home = () => {
               <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">المساج</h4>
                 <img class="object-cover w-full h-48"
                   src="./assest/masag.jpg" alt="Masag" />
-              </div>
-              </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 زورينا لتنالي قسطا من الراحة معنا في سيلا بيوتي سنتر
               </p>
+              </div>
+              </Link>
+              
             </div>
           </section>
           <section>
@@ -82,11 +86,12 @@ const home = () => {
               <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">المكياج</h4>
                 <img class="object-cover w-full h-48"
                   src="./makeup.jpg" alt="Makeup" />
-              </div>
-              </Link>
               <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 نحن نسعى بكل فخر لتصنيف سيلا بيوتي سنتر كواحد من الأفضل والأنظف والأكثر صحة في المدينة
               </p>
+              </div>
+              </Link>
+             
             </div>
           </section>
           <section>
@@ -96,11 +101,11 @@ const home = () => {
               <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">خدمات اخرى</h4>
                 <img class="object-cover w-full h-48"
                   src="./cella6.jpg" alt="others" />
-              </div>
-              </Link>
-              <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
+  <p className='px-4 pt-3 font-mono font-bold text-center text-medium text-sky-900'>
                 سيعمل فريقنا المحترف إلى تدليلك
               </p>
+              </div>
+              </Link>
             </div>
           </section>
         </section>
