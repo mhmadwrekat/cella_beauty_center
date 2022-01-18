@@ -2,7 +2,8 @@ import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Link from "next/link";
-import Hero from '../components/Hero'
+import Hero from '../components/Hero';
+import Caros from '../components/Carosall';
 /*
 <section className='grid justify-center ...'>
 
@@ -18,7 +19,7 @@ const home = () => {
       <Hero />
       <section className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
       <p className='pt-10 text-4xl font-semibold text-center sm:text-5xl text-sky-900'>خدماتنا</p>
-        <section className='grid grid-cols-1 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-3 sm:gap-5'>
+      <section className='grid grid-cols-1 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-3 sm:gap-5'>
           <section>
             <div class="w-80">
               <Link href="/hair">
@@ -110,10 +111,6 @@ const home = () => {
           </section>
         </section>
 
-
-
-
-
 <p className='pt-10 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>منتجات برودافريكا</p>
 <section className='grid grid-cols-1 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-1 sm:gap-5'>
           <section>
@@ -133,90 +130,7 @@ const home = () => {
 </section>
 
         <p className='pt-10 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>معرض الصور</p>
-        {/* Gallery 1 */}
-        <section class="overflow-hidden text-gray-700">
-          <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-32">
-            <div class="flex flex-wrap -m-1 md:-m-2">
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main20.jpg"
-                    onClick={()=>{window.open('./assestmain/main20.jpg','_self')}}
-                     />
-                </div>
-                <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face2.jpg"
-                    onClick={()=>{window.open('./assest/face2.jpg','_self')}}
-                     />
-                </div>
-                <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assest/face6.jpg" 
-                    onClick={()=>{window.open('./assest/face6.jpg','_self')}}/>
-                </div>
-              </div>
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="../assestmain/main11.jpg" 
-                    onClick={()=>{window.open('../assestmain/main11.jpg','_self')}}/>
-                </div>
-                <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main17.jpg" 
-                    onClick={()=>{window.open('./assestmain/main17.jpg','_self')}}/>
-                </div>
-                <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="justify-items-startblock object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main2.jpg" 
-                    onClick={()=>{window.open('./assestmain/main2.jpg','_self')}}/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* Gallery 2 */}
-        <section class="overflow-hidden text-gray-700">
-          <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-32">
-            <div class="flex flex-wrap -m-1 md:-m-2">
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assesthair/hair29.jpg" 
-                    onClick={()=>{window.open('./assesthair/hair29.jpg','_self')}}/>
-                </div>
-                <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main14.jpg" 
-                    onClick={()=>{window.open('./assestmain/main14.jpg','_self')}}/>
-                </div>
-                <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main16.jpg" 
-                    onClick={()=>{window.open('./assestmain/main16.jpg','_self')}}/>
-                </div>
-              </div>
-              <div class="flex flex-wrap w-1/2">
-                <div class="w-full p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main27.jpg" 
-                    onClick={()=>{window.open('./assestmain/main27.jpg','_self')}}/>
-                </div>
-                <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main18.jpg" 
-                    onClick={()=>{window.open('./assestmain/main18.jpg','_self')}}/>
-                </div>
-                <div class="w-1/2 p-1 md:p-2">
-                  <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
-                    src="./assestmain/main10.jpg" 
-                    onClick={()=>{window.open('./assestmain/main10.jpg','_self')}}/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+  
         <Footer />
       </section>
     </div>
@@ -226,5 +140,12 @@ export default home
 /*
 <div className='px-20'>
 <p class="bg-sky-900 opacity-50 h-0.5 rounded-full"></p>
+</div>
+*/
+/*
+<div className='w-full sm:w-12/12'>
+<section className='grid grid-cols-1 justify-items-center ... gap-10 py-10 5 mx-2 sm:mx-0 sm:grid-cols-1 sm:gap-5'>
+<Caros/>
+</section>
 </div>
 */
