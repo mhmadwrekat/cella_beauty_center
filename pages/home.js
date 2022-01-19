@@ -18,7 +18,7 @@ const home = () => {
 
       <section className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
         <p className='pt-10 text-4xl font-semibold text-center sm:text-5xl text-sky-900'>خدماتنا</p>
-        <section className='grid grid-cols-2 justify-items-center ... gap-10 py-10 mx-5 sm:mx-0 sm:grid-cols-4 sm:gap-5'>
+        <section className='grid grid-cols-2 justify-items-center ... gap-10 py-10 mx-3 sm:mx-0 sm:grid-cols-4 sm:gap-5'>
           <section>
             <div class="w-40 sm:w-60">
               <div class="relative overflow-hidden rounded-xl shadow-2xl">
@@ -76,7 +76,7 @@ const home = () => {
             </div>
           </section>
         </section>
-        <section className='grid grid-cols-2 justify-items-center ... gap-10 mx-5 sm:mx-0 sm:grid-cols-2 sm:gap-5'>
+        <section className='grid grid-cols-2 justify-items-center ... gap-10 mx-3 sm:mx-0 sm:grid-cols-2 sm:gap-5'>
           <section>
             <div class="w-40 sm:w-60">
               <div class="relative overflow-hidden rounded-xl shadow-2xl">
@@ -86,7 +86,7 @@ const home = () => {
                     src="./makeup.jpg" alt="Makeup" />
                 </Link>
                 <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
-                  نسعى  لتصنيف سيلا سنتر من الأفضل والأكثر صحة
+                  نسعى  لتصنيف سيلا سنتر من الأفضل والأنظف والأكثر صحة
                 </p>
               </div>
             </div>
