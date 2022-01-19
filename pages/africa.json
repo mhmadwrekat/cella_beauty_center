@@ -138,6 +138,11 @@
         "name": "مزيل العرق",
         "img": "./assestafrica/africa26.jpg",
         "price": 6.5
+      },
+      {
+        "name": "صابونة الدودو",
+        "img": "./assestafrica/africa27.jpg",
+        "price": 7
       }
  
   ]
