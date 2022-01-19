@@ -20,7 +20,7 @@ const others = () => {
                   <p className='text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>مايكروبيلدنج</p>
               </div>
                 </div>
-                <div class="flex flex-wrap w-1/2 pt-5">
+                <div class="flex flex-wrap w-1/2 pt-6">
                   <div class="w-full p-1 md:p-2">
                   <p className='text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>LVL</p>
               </div>
@@ -134,7 +134,7 @@ onClick={() => { window.open('./assestother/other12.jpg', '_self') }} />
         </Slide>
 
 {/* S 3 */}
-        <p className='pt-12 text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>سكر - واكس </p>
+        <p className='pt-12 pb-1 text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>سكر - واكس </p>
         <Slide triggerOnce>
           <section class="overflow-hidden text-gray-700">
             <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
