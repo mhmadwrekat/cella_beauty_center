@@ -108,6 +108,36 @@
         "name": "زبدة الشيا 180 غرام",
         "img": "./assestafrica/africa20.jpg",
         "price": 20
+      },
+      {
+        "name": "صابونة التفتيح",
+        "img": "./assestafrica/africa21.jpg",
+        "price": 7
+      },
+      {
+        "name": "صابونة العسل",
+        "img": "./assestafrica/africa22.jpg",
+        "price": 5
+      },
+      {
+        "name": "صابونة الشوفان",
+        "img": "./assestafrica/africa23.jpg",
+        "price": 7
+      },
+      {
+        "name": "صابونة الشاي",
+        "img": "./assestafrica/africa24.jpg",
+        "price": 5
+      },
+      {
+        "name": "منبت الرموش",
+        "img": "./assestafrica/africa25.jpg",
+        "price": 7
+      },
+      {
+        "name": "مزيل العرق",
+        "img": "./assestafrica/africa26.jpg",
+        "price": 6.5
       }
  
   ]
