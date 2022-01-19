@@ -56,7 +56,7 @@ const home = () => {
                     src="./assest/face5.jpg" alt="Face" />
                 </Link>
                 <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
-                  لقد ميزنا أنفسنا في كل جانب من جوانب خدماتنا ومنتجاتنا وأجواءنا
+                  لقد ميزنا أنفسنا في جوانب خدماتنا ومنتجاتنا وأجواءنا
                 </p>
               </div>
             </div>
@@ -100,7 +100,7 @@ const home = () => {
                     src="./cella6.jpg" alt="others" />
                 </Link>
                 <p className='px-4 py-2 font-mono text-xs font-bold text-center sm:text-medium text-sky-900'>
-                  سيعمل فريقنا المحترف إلى راحتك و تدليلك
+                  سيعمل فريقنا المحترف إلى راحتك و تدليلك بافضل الاسعار
                 </p>
               </div>
             </div>
