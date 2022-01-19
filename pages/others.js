@@ -2,7 +2,6 @@ import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Slide from "react-awesome-reveal";
-//https://res.cloudinary.com/citylifestyle/w_900/v1612292150/dev/articles/d76885e9-f642-497d-a8a0-296948400b9c/header.jpg
 const others = () => {
     return (
         <>
@@ -11,22 +10,19 @@ const others = () => {
           <div>
           <img src='https://www.vodex.co.uk/wp-content/uploads/November-beauty-salon-equipment-1000x400-1.jpg' class="w-full" />
         </div>
-      
-
-
 {/* S 1 */}
 <Slide triggerOnce>
           <section class="pt-12 overflow-hidden text-gray-700">
             <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
               <div class="flex flex-wrap -m-1 md:-m-2">
-                <div class=" w-1/2">
+                <div class=" w-1/2 pt-5">
                   <div class="w-2/2 p-1 md:p-2">
-                  <p className='pb-5 text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>مايكروبيلدنغ</p>
+                  <p className='text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>مايكروبيلدنج</p>
               </div>
                 </div>
-                <div class="flex flex-wrap w-1/2">
+                <div class="flex flex-wrap w-1/2 pt-5">
                   <div class="w-full p-1 md:p-2">
-                  <p className='pb-5 text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>LVL</p>
+                  <p className='text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>LVL</p>
               </div>
                 </div>
               </div>
@@ -80,14 +76,14 @@ onClick={() => { window.open('./assestother/other4.jpg', '_self') }} />
           <section class="pt-12 overflow-hidden text-gray-700">
             <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
               <div class="flex flex-wrap -m-1 md:-m-2">
-                <div class=" w-1/2">
+                <div class=" w-1/2 pt-5">
                   <div class="w-2/2 p-1 md:p-2">
-<p className='pb-5 text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>برافين</p>
+<p className='text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>برافين</p>
               </div>
                 </div>
-                <div class="flex flex-wrap w-1/2">
+                <div class="flex flex-wrap w-1/2 pt-5">
                   <div class="w-full p-1 md:p-2">
-<p className='pb-5 text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>تنظيف حواجب</p>
+<p className='text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>تنظيف حواجب</p>
               </div>
                 </div>
               </div>
@@ -138,7 +134,7 @@ onClick={() => { window.open('./assestother/other12.jpg', '_self') }} />
         </Slide>
 
 {/* S 3 */}
-        <p className='pt-12 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>سكر - واكس </p>
+        <p className='pt-12 text-xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>سكر - واكس </p>
         <Slide triggerOnce>
           <section class="overflow-hidden text-gray-700">
             <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
