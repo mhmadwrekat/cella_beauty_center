@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import Link from "next/link";
 import Hero from '../components/Hero';
 import Caros from '../components/Carosall';
+import Slide from "react-awesome-reveal";
+
 /*
 <section className='grid justify-center ...'>
 
@@ -130,7 +132,69 @@ const home = () => {
 </section>
 
         <p className='pt-10 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>معرض الصور</p>
-  
+
+        <Slide triggerOnce>
+          <section class="overflow-hidden text-gray-700">
+            <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
+              <div class="flex flex-wrap -m-1 md:-m-2">
+                <div class="flex flex-wrap w-1/2">
+                  
+                  <div class="w-2/2 p-1 md:p-2">
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                      src="./assestmain/main28.jpg"
+                      onClick={() => { window.open('./assestmain/main28.jpg', '_self') }} />
+                  </div>
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                  <div class="w-2/2 p-1 md:p-2">
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                      src="./assestmain/main29.jpg"
+                      onClick={() => { window.open('./assestmain/main29.jpg', '_self') }} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </Slide>
+        <Slide triggerOnce>
+          <section class="overflow-hidden text-gray-700">
+            <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
+              <div class="flex flex-wrap -m-1 md:-m-2">
+                <div class="flex flex-wrap w-1/2">
+                  <div class="w-1/2 p-1 md:p-2">
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                      src="./cella5.jpg"
+                      onClick={() => { window.open('./cella5.jpg', '_self') }} />
+                  </div>
+                  <div class="w-1/2 p-1 md:p-2">
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                      src="./cella2.jpg"
+                      onClick={() => { window.open('./cella2.jpg', '_self') }} />
+                  </div>
+                 
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                 
+                  <div class="w-1/2 p-1 md:p-2">
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                      src="./cella3.jpg"
+                      onClick={() => { window.open('./cella3.jpg', '_self') }} />
+                  </div>
+                  <div class="w-1/2 p-1 md:p-2">
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg"
+                      src="./cella4.jpg"
+                      onClick={() => { window.open('./cella4.jpg', '_self') }} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </Slide>
+
+
+
+
+
         <Footer />
       </section>
     </div>
