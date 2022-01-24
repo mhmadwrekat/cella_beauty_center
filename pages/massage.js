@@ -20,7 +20,7 @@ const massage = () => {
             </h4>
           </div>
         </div>
-        <section className='absolute w-4/6 py-2 text-center bg-white opacity-75 sm:hidden rounded-2xl top-24 right-1'>
+        <section className='absolute py-2 text-center bg-white opacity-75 w-6/6 sm:hidden rounded-2xl top-32'>
           <section className='relative'>
             <div class="relative sm:hidden overflow-hidden rounded-lg  cursor-pointer">
               <h4 class="mb-3 text-sm font-semibold text-center tracking-tight text-sky-900">

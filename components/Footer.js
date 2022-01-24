@@ -15,7 +15,7 @@ const Footer = () => {
                                     <span
                                         class="mx-4 rounded-full text-sky-900 bg-gray-200 font-semibold text-sm flex align-center cursor-pointer active:bg-gray-300 transition duration-300 ease w-max">
                                         <img class="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none" alt="A"
-                                            src="./assest/callicon.png" />
+                                            src="https://cdn-icons-png.flaticon.com/512/724/724664.png" />
                                         <a class="flex items-center sm:px-3 px-2 py-1 sm:py-2" href="tel:0782950960">0782950960</a>
                                     </span>
                                 </Link>
