@@ -3,7 +3,8 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Link from "next/link";
 import Hero from '../components/Hero';
-import Slide from "react-awesome-reveal";
+//import Slide from "react-awesome-reveal";
+import Carosal from '../components/Carosal';
 const home = () => {
   return (
     <div translate='no'>
@@ -113,6 +114,9 @@ const home = () => {
             </div>
           </section>
         </section>
+        <div className='pt-2'></div>
+        <Carosal />
+        {/*
         <p className='pt-10 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>معرض الصور</p>
         <Slide triggerOnce>
           <section class="overflow-hidden text-gray-700">
@@ -168,6 +172,7 @@ const home = () => {
             </div>
           </section>
         </Slide>
+*/}
         <Footer />
       </section>
     </div>

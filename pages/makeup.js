@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Slide from "react-awesome-reveal";
+import Carosal from '../components/Carosal';
 const makeup = () => {
   return (
     <>
@@ -28,11 +29,13 @@ const makeup = () => {
                   هي عناصر كفيلٌة أن تغيّر من الشكل والإطلالة وحتى المزاج في غضون دقائق
                   <br></br>
                   هي الأمور التي تتمم كل شيء
-
                 </h4></h4>
             </div>
           </section>
         </section>
+        <div className='pt-4'></div>
+        <Carosal />
+        <div className='pt-3'></div>
         {/* S 1 */}
         <Slide triggerOnce>
           <section class="overflow-hidden text-gray-700">

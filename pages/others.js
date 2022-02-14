@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Slide from "react-awesome-reveal";
+import Carosal from '../components/Carosal';
 const others = () => {
   return (
     <>
@@ -10,6 +11,9 @@ const others = () => {
         <div>
           <img src='./assestother/otherhero.jpg' class="w-full" />
         </div>
+        <div className='pt-4'></div>
+        <Carosal />
+        <div className='pt-3'></div>
         {/* S 1 */}
         <Slide triggerOnce>
           <section class="pt-12 overflow-hidden text-gray-700">
