@@ -1,12 +1,12 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import PageNav from '../components/PageNav';
 import Footer from '../components/Footer';
 import Slide from "react-awesome-reveal";
 import Carosal from '../components/Carosal';
 const hair = () => {
   return (
     <>
-      <Nav />
+      <PageNav />
       <section className='pt-16 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
         <div>
           <img src='./assesthair/hairhero.jpg' class="w-full" />

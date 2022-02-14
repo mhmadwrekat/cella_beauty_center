@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import PageNav from '../components/PageNav';
 import Footer from '../components/Footer';
 import Slide from "react-awesome-reveal";
 import africaData from './africa.json';
@@ -7,7 +7,7 @@ import Carosal from '../components/Carosal';
 const face = () => {
   return (
     <>
-      <Nav />
+      <PageNav />
       <section translate='no' className='pt-16 bg-gradient-to-r from-white to-fuchsia-100'>
         <div>
           <img src='./assestface/facehero.jpg' class="w-full" />
