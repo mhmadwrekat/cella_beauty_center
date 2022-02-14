@@ -34,31 +34,45 @@ const Carosal = () => {
                 >
                     <SwiperSlide>
                         <img src="./assest/carosal1.jpg"
-                            className="block w-full shadow-2xl rounded-2xl" />
+                            className="block w-full shadow-2xl rounded-2xl" 
+                            onClick={() => { window.open('./assest/carosal1.jpg', '_self') }}
+                            />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="./assest/carosal2.jpg"
-                            className="block w-full shadow-2xl rounded-2xl" />
+                            className="block w-full shadow-2xl rounded-2xl" 
+                      onClick={() => { window.open('./assest/carosal2.jpg', '_self') }}
+                      />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="./assest/carosal3.jpg"
-                            className="block w-full shadow-2xl rounded-2xl" />
+                            className="block w-full shadow-2xl rounded-2xl" 
+                      onClick={() => { window.open('./assest/carosal3.jpg', '_self') }}
+                      />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="./assest/carosal4.jpg"
-                            className="block w-full shadow-2xl rounded-2xl" />
+                            className="block w-full shadow-2xl rounded-2xl" 
+                      onClick={() => { window.open('./assest/carosal4.jpg', '_self') }}
+                      />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="./assest/carosal5.jpg"
-                            className="block w-full shadow-2xl rounded-2xl" />
+                            className="block w-full shadow-2xl rounded-2xl" 
+                      onClick={() => { window.open('./assest/carosal5.jpg', '_self') }}
+                      />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="./assest/carosal6.jpg"
-                            className="block w-full shadow-2xl rounded-2xl" />
+                            className="block w-full shadow-2xl rounded-2xl" 
+                      onClick={() => { window.open('./assest/carosal6.jpg', '_self') }}
+                      />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="./assest/carosal7.jpg"
-                            className="block w-full shadow-2xl rounded-2xl" />
+                            className="block w-full shadow-2xl rounded-2xl" 
+                      onClick={() => { window.open('./assest/carosal7.jpg', '_self') }}
+                      />
                     </SwiperSlide>
                 </Swiper>
             </section>
