@@ -11,9 +11,8 @@ const home = () => {
     <div translate='no'>
       <Nav />
       <Hero />
-      <section className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
-        <p id='Services' 
-        className='pt-10 text-4xl font-semibold text-center sm:text-5xl text-sky-900'>خدماتنا</p>
+      <section id='Services'  className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
+        <p className='pt-10 text-4xl font-semibold text-center sm:text-5xl text-sky-900'>خدماتنا</p>
         <section className='grid grid-cols-2 justify-items-center ... gap-10 py-10 mx-3 sm:mx-0 sm:grid-cols-4 sm:gap-5'>
           <section>
             <div class="w-40 sm:w-60">
@@ -88,7 +87,7 @@ const home = () => {
             </div>
           </section>
           <section>
-            <div class="w-40 sm:w-60">
+            <div class="w-40 sm:w-60" id='Product' >
               <div class="relative overflow-hidden rounded-xl shadow-2xl">
                 <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900"> خدمات اخرى</h4>
                 <Link href="/others">
@@ -102,8 +101,7 @@ const home = () => {
             </div>
           </section>
         </section>
-        <p id='Product' 
-        className='pt-12 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>منتجات برودافريكا</p>
+        <p className='pt-12 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>منتجات برودافريكا</p>
         <section className='grid grid-cols-1 justify-items-center ... gap-10 py-5 mx-5 sm:mx-0 sm:grid-cols-1 sm:gap-5'>
           <section>
             <div class="w-72 lg:w-80">
@@ -111,13 +109,13 @@ const home = () => {
                 <div class="relative overflow-hidden rounded-3xl shadow-2xl cursor-pointer">
                   <h4 class="my-1 text-2xl font-semibold text-center tracking-tight text-sky-900">برودافريكا</h4>
                   <img class="object-cover w-full h-48 hover:scale-110"
-                    src="./assestafrica/africa1.jpg" alt="face" />
+                    src="./assestafrica/africa1.jpg" alt="face"  id='Image'/>
                 </div>
               </Link>
             </div>
           </section>
         </section>
-        <div id='Image' className='pt-2'></div>
+        <div className='pt-2'></div>
 <Carosal />
 {/*
         <p className='pt-10 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>معرض الصور</p>
