@@ -5,10 +5,26 @@ const Nav = () => {
   useEffect(() => {
     try {
       const btn = document.querySelector("button.mobile-menu-button");
+      const navButton1 = document.querySelector("button.navButton1");
+      const navButton2 = document.querySelector("button.navButton2");
+      const navButton3 = document.querySelector("button.navButton3");
+      const navButton4 = document.querySelector("button.navButton4");
       const menu = document.querySelector(".mobile-menu");
       btn.addEventListener("click", () => {
         menu.classList.toggle("hidden");
       });
+      navButton1.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      }); 
+      navButton2.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      }); 
+      navButton3.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      }); 
+      navButton4.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });      
     } catch (error) {
       handleError(error);
     }
@@ -54,18 +70,18 @@ const Nav = () => {
                 </div>
               </div>
               <div class='hidden mobile-menu md:hidden w-full bg-white opacity-80 border-gray-900'>
-                <ul class="flex flex-col md:flex-row md:space-x-0 md:mt-0 md:text-medium md:font-medium font-bold text-center">
+                <ul class="flex flex-col md:flex-row md:space-x-0 md:mt-0 md:text-medium md:font-medium text-center">
                   <li className='py-3'>
-                    <a href="#Services" class="cursor-grab hover:scale-110 py-2  text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">خدماتنا</a>
+                    <button class='navButton1'><a href="#Services" class="font-bold cursor-grab hover:scale-110 py-2  text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">خدماتنا</a></button>
                   </li>
                   <li className='py-3'>
-                    <a href="#Product" class="cursor-grab hover:scale-110 py-2  text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">منتجات برودافريكا</a>
+                  <button class='navButton2'><a href="#Product" class="cursor-grab hover:scale-110 py-2 font-bold text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">منتجات برودافريكا</a></button>
                   </li>
                   <li className='py-3'>
-                    <a href="#Image" class="cursor-grab  hover:scale-110 py-2 text-violet-900 text-center hover:text-violet-600 rounded md:p-0"> معرض الصور</a>
+                  <button class='navButton3'><a href="#Image" class="cursor-grab font-bold hover:scale-110 py-2 text-violet-900 text-center hover:text-violet-600 rounded md:p-0"> معرض الصور</a></button>
                   </li>
                   <li className='py-3'>
-                    <a href="#Info" class="cursor-grab hover:scale-110 py-2  text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">معلومات </a>
+                  <button class='navButton4'><a href="#Info" class="cursor-grab hover:scale-110 py-2 font-bold text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">معلومات </a></button>
                   </li>
                 </ul>
 </div>
