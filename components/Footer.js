@@ -24,7 +24,7 @@ const Footer = () => {
                         <div className='pt-2'>
                             <p>
                                 ساعات العمل</p>
-                            <p className='text-sm sm:text-xl'> 10:00 am - 7:00 pm</p>
+                            <p className='text-sm sm:text-xl'> 10:00 am - 8:00 pm</p>
                         </div>                    </div>
                 </section></section>
             <section translate='no' class='bg-white text-sky-900 ' id='profilefoot'>
