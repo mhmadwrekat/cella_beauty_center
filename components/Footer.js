@@ -1,23 +1,125 @@
-import React from 'react';
+import React, { useRef } from "react";
 import Link from "next/link";
+const SERVICE_ID = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID;
+const USER_ID = process.env.NEXT_PUBLIC_EMAIL_USER_ID;
+const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID;
+import swal from 'sweetalert';
+import emailjs from '@emailjs/browser';
 const Footer = () => {
+    {/* POST FEEDBACK */ }
+    const form = useRef();
+    const handelFeedback = (event) => {
+        event.preventDefault();
+          const feedback = {
+              name: event.target.name.value,
+              email: event.target.email.value,
+              number:event.target.number.value,
+              day:event.target.day.value,
+              message: event.target.message.value,
+              author: 2
+          }
+              //  createFeedback(feedback);
+          swal("تم بنجاح", "شكرا لك , سيتم التواصل معك عن قريب", "success");
+          emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, form.current, `${USER_ID}`);
+          event.target.reset();
+          }
+      {/* END POST FEEDBACK */ }
     return (
         <>
-            <section translate='no' className='pt-10 justify-center ...'>
-                <section className='py-8 opacity-75 bg-fuchsia-100 align-center'>
+        <section className="bg-fuchsia-100">
+ {/* FEEDBACK FORM */}
+ <section className="pt-0 antialiased leading-normal tracking-wider text-gray-900 sm:pt-10 font-awesome ">
+                    <div className="text-sky-900 opacity-95">
+                        <div className="container flex flex-col mx-auto md:flex-row">
+                                <div className="container w-full px-4">
+                                    <div className="flex flex-wrap justify-center">
+                                        <div className="w-full px-4 lg:w-5/12">
+                                            <div
+                                                className="relative flex flex-col w-full min-w-0 mb-6 break-words rounded-lg shadow-lg bg-gradient-to-r from-fuchsia-300 to-fuchsia-200 opacity-90">
+                                                <div className="flex-auto p-5 lg:p-10">
+                                                    <h4 className="mb-4 text-2xl font-semibold text-center">!! للحجز والأستفسار</h4>
+                                                    <form id="feedbackForm" method='post' onSubmit={handelFeedback} ref={form}>
+                                                        <div className="relative w-full mb-3">
+<label className="block float-right mb-2 text-xs font-bold uppercase"
+for="email">الأسم</label>
+<input type="text" name="name" id="name"
+class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-black text-gray-800 outline-none focus:bg-gray-400" placeholder=" "
+required />
+                                                        </div>
+                                                        <div className="relative w-full mb-3">
+<label className="block float-right mb-2 text-xs font-bold uppercase"
+for="email">الأيميل</label>
+<input type="email" name="email" id="email"
+class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-black text-gray-800 outline-none focus:bg-gray-400" placeholder=" "
+required />
+</div>
+<div className="relative w-full mb-3">
+<label className="block float-right mb-2 text-xs font-bold uppercase"
+for="number">الهاتف</label>
+<input type="number" name="number" id="number"
+class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
+ placeholder=" "
+required />
+</div>
+<div className="relative w-full mb-3">
+<label className="block float-right mb-2 text-xs font-bold uppercase"
+for="day">اليوم</label>
+<input type="date" name="day" id="day"
+class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
+ placeholder=" "
+required />
+</div>
+<div className="relative w-full mb-3">
+<label className="block float-right mb-2 text-xs font-bold uppercase"
+for="message">الحجز / الرسالة</label>
+<textarea maxlength="300" name="message" id="feedback" rows="1"
+cols="80"
+className="w-full px-3 py-3 text-sm text-gray-800 placeholder-black bg-gray-100 border-0 rounded shadow focus:outline-none"
+placeholder="" required></textarea>
+</div>
+<div className="mt-6 text-center">
+<button id="feedbackBtn" type="submit"
+className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-200 uppercase rounded shadow outline-none bg-sky-700 hover:bg-sky-900 cursor-alias active:bg-yellow-400 hover:shadow-lg focus:outline-none"
+                                                            >Submit
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+            <section id='Info' translate='no' className='pt-10 justify-center ...'>
+                <section className='py-8 opacity-75 align-center'>
                     <div className='grid items-center text-xl font-bold text-center sm:grid-cols-1 text-sky-900 '>
                         <div className='justify-center ...'>
-                            <iframe className='w-5/6 h-auto px-0 py-3 pl-12 sm:pl-0 sm:px-10 sm:w-full sm:h-96 rounded-3xl' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9692.582730983906!2d35.884355085248224!3d32.06012974125795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccadd703c7e3d5a7!2sCella%20Beauty%20Center!5e0!3m2!1sar!2sjo!4v1642220212245!5m2!1sar!2sjo" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe className='w-full h-auto px-0 py-3 sm:pl-0 sm:px-10 sm:w-full sm:h-96 rounded-3xl' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9692.582730983906!2d35.884355085248224!3d32.06012974125795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccadd703c7e3d5a7!2sCella%20Beauty%20Center!5e0!3m2!1sar!2sjo!4v1642220212245!5m2!1sar!2sjo" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <div className='sm:pr-5 text-sm sm:text-xl sm:pt-7 pt-5 grid justify-center ...'>
                             <div class="flex flex-wrap justify-center space-x-2 items-end">
-                                <Link href='tel:0782950960'>
-                                    <span
-                                        class="mx-4 rounded-full text-sky-900 bg-gray-200 font-semibold text-sm flex align-center cursor-pointer active:bg-gray-300 transition duration-300 ease w-max">
-                                        <img class="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none" alt="A"
-                                            src="https://cdn-icons-png.flaticon.com/512/724/724664.png" />
-                                        <a class="flex items-center sm:px-3 px-2 py-1 sm:py-2" href="tel:0782950960">0782950960</a>
-                                    </span>
+<Link href='tel:0782950960'>
+<span
+class="mx-4 rounded-full text-sky-900 bg-gray-200 font-semibold text-sm flex align-center cursor-pointer active:bg-gray-300 transition duration-300 ease w-max">
+
+<img class="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none" alt="A"
+src="https://cdn-icons-png.flaticon.com/512/724/724664.png" />
+
+<a class="flex items-center sm:px-3 px-2 py-1 sm:py-2" href="tel:0782950960">0782950960</a>
+</span>
                                 </Link>
                             </div>
                         </div>
@@ -63,6 +165,8 @@ const Footer = () => {
                     </div>
                 </div>
             </section>
+            </section>
+
         </>
     )
 }

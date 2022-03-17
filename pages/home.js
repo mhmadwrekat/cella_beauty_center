@@ -13,7 +13,7 @@ const home = () => {
       <Hero />
       <section id='Services'  className='w-full px-1 bg-gradient-to-r from-white to-fuchsia-100' translate='no'>
         <p className='pt-10 text-4xl font-semibold text-center sm:text-5xl text-sky-900'>خدماتنا</p>
-        <section className='grid grid-cols-2 justify-items-center ... gap-10 py-10 mx-3 sm:mx-0 sm:grid-cols-4 sm:gap-5'>
+        <section className='grid grid-cols-2 justify-items-center ... gap-10 py-10 mx-3 sm:mx-0 sm:grid-cols-3 sm:gap-5'>
           <section>
             <div class="w-40 sm:w-60">
               <div class="relative overflow-hidden rounded-xl shadow-2xl">
@@ -70,8 +70,6 @@ const home = () => {
               </div>
             </div>
           </section>
-        </section>
-        <section className='grid grid-cols-2 justify-items-center ... gap-10 mx-3 sm:mx-0 sm:grid-cols-2 sm:gap-5'>
           <section>
             <div class="w-40 sm:w-60">
               <div class="relative overflow-hidden rounded-xl shadow-2xl">
@@ -101,6 +99,12 @@ const home = () => {
             </div>
           </section>
         </section>
+
+
+
+
+
+
         <p className='pt-12 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>منتجات برودافريكا</p>
         <section className='grid grid-cols-1 justify-items-center ... gap-10 py-5 mx-5 sm:mx-0 sm:grid-cols-1 sm:gap-5'>
           <section>
@@ -174,8 +178,8 @@ const home = () => {
           </section>
         </Slide>
 */}
-<div id='Info'></div>
-        <Footer />
+<div id='Form' className='pt-10'></div>
+        <Footer/>
       </section>
     </div>
   )
