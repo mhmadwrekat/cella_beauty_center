@@ -178,7 +178,7 @@ const home = () => {
           </section>
         </Slide>
 */}
-<div id='Form' className='pt-10'></div>
+<div id='Form'></div>
         <Footer/>
       </section>
     </div>

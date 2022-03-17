@@ -26,9 +26,9 @@ const Footer = () => {
       {/* END POST FEEDBACK */ }
     return (
         <>
-        <section className="bg-fuchsia-100">
+        <section className="bg-gradient-to-r from-white to-fuchsia-100">
  {/* FEEDBACK FORM */}
- <section className="pt-0 antialiased leading-normal tracking-wider text-gray-900 sm:pt-10 font-awesome ">
+ <section className="pt-10 text-gray-900 sm:pt-10 ">
                     <div className="text-sky-900 opacity-95">
                         <div className="container flex flex-col mx-auto md:flex-row">
                                 <div className="container w-full px-4">
@@ -37,7 +37,7 @@ const Footer = () => {
                                             <div
                                                 className="relative flex flex-col w-full min-w-0 mb-6 break-words rounded-lg shadow-lg bg-gradient-to-r from-fuchsia-300 to-fuchsia-200 opacity-90">
                                                 <div className="flex-auto p-5 lg:p-10">
-                                                    <h4 className="mb-4 text-2xl font-semibold text-center">!! للحجز والأستفسار</h4>
+                                                    <h4 className="mb-3 text-2xl font-semibold text-center">!! للحجز والأستفسار</h4>
                                                     <form id="feedbackForm" method='post' onSubmit={handelFeedback} ref={form}>
                                                         <div className="relative w-full mb-3">
 <label className="block float-right mb-2 text-xs font-bold uppercase"
