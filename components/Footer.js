@@ -71,7 +71,7 @@ required />
 </div>
 <div className="relative w-full mb-3">
 <label className="block float-right mb-2 text-xs font-bold uppercase"
-for="message">الحجز / الرسالة</label>
+for="message">الحجز / الخدمة</label>
 <textarea maxlength="300" name="message" id="feedback" rows="1"
 cols="80"
 className="w-full px-3 py-3 text-sm text-gray-800 placeholder-black bg-gray-100 border-0 rounded shadow focus:outline-none"
