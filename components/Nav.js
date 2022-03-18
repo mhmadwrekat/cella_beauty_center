@@ -85,13 +85,6 @@ const Nav = () => {
                   </li>
                 </ul>
 </div>
-
-
-
-
-
-
-
               <hr className="py-0 my-0 border-b border-gray-100 opacity-25" />
             </nav>
           </div>
