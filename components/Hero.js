@@ -1,11 +1,12 @@
 import React from 'react';
+//https://latelierhairdressing.com/wp-content/uploads/2016/04/Beauty-Salon.jpg
 const Hero = () => {
     return (
         <>
             <div className='pt-16'></div>
-            <div className=" bg-cover h-screen bg-[url('https://latelierhairdressing.com/wp-content/uploads/2016/04/Beauty-Salon.jpg')]">
+            <div className="bg-right bg-cover h-screen bg-[url('https://img5.goodfon.com/wallpaper/nbig/b/aa/model-litso-makiiazh-1.jpg')]">
                 <div className='hidden sm:flex'>
-                    <h4 translate='no' className='absolute float-right text-3xl font-semibold text-right text-sky-900 w-96 top-80 right-32'>
+                    <h4 translate='no' className='absolute float-right text-3xl font-semibold text-right text-sky-900 w-96 top-80 left-32'>
                         مركز سيلا للتجميل هو مركز تجميل على احدث طراز,
                         متخصصون في تصفيف الشعر والمكياج للعرائس, احدث صيحات الالوان والعناية بالأظافر والسكر وعلاجات الوجه والمزيد!!
                     </h4>

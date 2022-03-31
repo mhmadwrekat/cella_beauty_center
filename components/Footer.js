@@ -80,7 +80,7 @@ placeholder="Hair | Nails | Face | Makeup" required></textarea>
 </div>
 <div className="mt-6 text-center">
 <button id="feedbackBtn" type="submit"
-className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-200 uppercase bg-pink-600 rounded shadow outline-none hover:bg-sky-900 cursor-alias active:bg-yellow-400 hover:shadow-lg focus:outline-none"
+className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-200 uppercase bg-purple-800 rounded shadow outline-none hover:bg-sky-900 cursor-alias active:bg-yellow-400 hover:shadow-lg focus:outline-none"
                                                             >أرسال
                                                             </button>
                                                         </div>
@@ -115,10 +115,8 @@ className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-2
 <Link href='tel:0782950960'>
 <span
 class="mx-4 rounded-full text-sky-900 bg-gray-200 font-semibold text-sm flex align-center cursor-pointer active:bg-gray-300 transition duration-300 ease w-max">
-
-<img class="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none" alt="A"
-src="https://cdn-icons-png.flaticon.com/512/724/724664.png" />
-
+<img class="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none shadow-2xl" alt="A"
+src="https://cdn-icons-png.flaticon.com/512/6996/6996275.png" />
 <a class="flex items-center sm:px-3 px-2 py-1 sm:py-2" href="tel:0782950960">0782950960</a>
 </span>
                                 </Link>

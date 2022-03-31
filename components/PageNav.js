@@ -35,7 +35,7 @@ const PageNav = () => {
                 </ul>
                 <div class="flex items-right mt-2">
                 <a href="#Form" data-tippy-content="WhatsApp">
-                    <button translate='no' class="bg-gradient-to-r from-purple-500 to-pink-500 ... hover:bg-pink-800 animate-bounce text-white font-bold py-2 px-4 rounded-full">
+                    <button translate='no' class="bg-gradient-to-r from-purple-500 to-pink-500 ... hover:bg-pink-800 animate-bounce text-white font-bold py-2 px-3 rounded-full">
                       أحجزي موعدك
                     </button>
                   </a>
