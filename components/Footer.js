@@ -80,7 +80,7 @@ placeholder="Hair | Nails | Face | Makeup" required></textarea>
 </div>
 <div className="mt-6 text-center">
 <button id="feedbackBtn" type="submit"
-className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-200 uppercase bg-purple-800 rounded shadow outline-none hover:bg-sky-900 cursor-alias active:bg-yellow-400 hover:shadow-lg focus:outline-none"
+className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-200 uppercase rounded shadow outline-none bg-sky-700 hover:bg-sky-900 cursor-alias active:bg-yellow-400 hover:shadow-lg focus:outline-none"
                                                             >أرسال
                                                             </button>
                                                         </div>

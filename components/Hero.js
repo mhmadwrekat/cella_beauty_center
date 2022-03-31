@@ -12,7 +12,7 @@ const Hero = () => {
                     </h4>
                 </div>
             </div>
-            <section className='absolute w-full text-center bg-white opacity-70 sm:hidden top-80'>
+            <section className='absolute w-full text-center bg-white opacity-70 sm:hidden top-60'>
                 <section className='relative'>
                     <div class="relative py-5 sm:hidden overflow-hidden rounded-lg shadow-2xl cursor-pointer">
                         <h4 translate='no' class="mb-3 text-xl font-semibold text-center tracking-tight text-sky-900"><h4 className='px-5 text-lg font-semibold text-center text-sky-900'>
