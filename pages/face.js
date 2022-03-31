@@ -113,15 +113,8 @@ const face = () => {
   </>
   })
 }
-
-
-
-
-
         </section>
-
-
-
+        <div id='Form'></div>
         <Footer />
       </section>
 

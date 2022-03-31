@@ -553,6 +553,7 @@ const makeup = () => {
             </div>
           </section>
         </Slide>
+        <div id='Form'></div>
         <Footer />
       </section>
     </>

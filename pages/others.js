@@ -186,6 +186,7 @@ const others = () => {
             </div>
           </section>
         </Slide>
+        <div id='Form'></div>
         <Footer />
       </section>
     </>

@@ -29,44 +29,45 @@ const Footer = () => {
         <section className="bg-gradient-to-r from-white to-fuchsia-100">
  {/* FEEDBACK FORM */}
  <section className="pt-10 text-gray-900 sm:pt-10 ">
-                    <div className="text-sky-900 opacity-95">
-                        <div className="container flex flex-col mx-auto md:flex-row">
-                                <div className="container w-full px-4">
-                                    <div className="flex flex-wrap justify-center">
-                                        <div className="w-full px-4 lg:w-5/12">
-                                            <div
-                                                className="relative flex flex-col w-full min-w-0 mb-6 break-words rounded-lg shadow-lg bg-gradient-to-r from-fuchsia-300 to-fuchsia-200 opacity-90">
-                                                <div className="flex-auto p-5 lg:p-10">
-                                                    <h4 className="mb-3 text-2xl font-semibold text-center">!! للحجز والأستفسار</h4>
-                                                    <form id="feedbackForm" method='post' onSubmit={handelFeedback} ref={form}>
-                                                        <div className="relative w-full mb-3">
+<div className="text-gray-100 opacity-95">
+<div className="container flex flex-col mx-auto md:flex-row">
+<div className="container w-full px-4">
+<div className="flex flex-wrap justify-center">
+<div className="w-full px-4 lg:w-5/12">
+<div
+className="relative flex flex-col w-full min-w-0 mb-6 break-words rounded-lg shadow-lg bg-gradient-to-r from-purple-300 to-purple-500 opacity-90">
+<div className="flex-auto p-5 lg:p-10">
+<h4 className="mb-3 text-2xl font-semibold text-center">!! للحجز والأستفسار</h4>
+<form id="feedbackForm" method='post' onSubmit={handelFeedback} ref={form}>
+<div className="relative w-full mb-3">
 <label className="block float-right mb-2 text-xs font-bold uppercase"
 for="email">الأسم</label>
 <input type="text" name="name" id="name"
-class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-black text-gray-800 outline-none focus:bg-gray-400" placeholder=" "
+class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
+placeholder="Cella Ahmad"
 required />
-                                                        </div>
-                                                        <div className="relative w-full mb-3">
+</div>
+<div className="relative w-full mb-3">
 <label className="block float-right mb-2 text-xs font-bold uppercase"
 for="email">الأيميل</label>
 <input type="email" name="email" id="email"
-class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-black text-gray-800 outline-none focus:bg-gray-400" placeholder=" "
+class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
+ placeholder="Cella@gmail.com"
 required />
 </div>
 <div className="relative w-full mb-3">
 <label className="block float-right mb-2 text-xs font-bold uppercase"
 for="number">الهاتف</label>
-<input type="number" name="number" id="number"
-class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
- placeholder=" "
+<input type="number" name="number" id="number" 
+class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
+placeholder="0799999999"
 required />
 </div>
 <div className="relative w-full mb-3">
 <label className="block float-right mb-2 text-xs font-bold uppercase"
-for="day">اليوم</label>
-<input type="date" name="day" id="day"
-class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
- placeholder=" "
+for="day">التوقيت</label>
+<input  type="datetime-local" name="day" id="day"
+class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
 required />
 </div>
 <div className="relative w-full mb-3">
@@ -74,13 +75,13 @@ required />
 for="message">الحجز / الخدمة</label>
 <textarea maxlength="300" name="message" id="feedback" rows="1"
 cols="80"
-className="w-full px-3 py-3 text-sm text-gray-800 placeholder-black bg-gray-100 border-0 rounded shadow focus:outline-none"
-placeholder="" required></textarea>
+className="w-full px-3 py-3 text-sm text-gray-800 bg-gray-100 border-0 rounded shadow placeholder-gyay-400 focus:outline-none"
+placeholder="Hair | Nails | Face | Makeup" required></textarea>
 </div>
 <div className="mt-6 text-center">
 <button id="feedbackBtn" type="submit"
-className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-200 uppercase rounded shadow outline-none bg-sky-700 hover:bg-sky-900 cursor-alias active:bg-yellow-400 hover:shadow-lg focus:outline-none"
-                                                            >Submit
+className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-200 uppercase bg-pink-600 rounded shadow outline-none hover:bg-sky-900 cursor-alias active:bg-yellow-400 hover:shadow-lg focus:outline-none"
+                                                            >أرسال
                                                             </button>
                                                         </div>
                                                     </form>

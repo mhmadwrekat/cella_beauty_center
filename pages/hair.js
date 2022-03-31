@@ -375,6 +375,7 @@ const hair = () => {
             </div>
           </section>
         </Slide>
+        <div id='Form'></div>
         <Footer />
       </section>
     </>

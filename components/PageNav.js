@@ -34,7 +34,7 @@ const PageNav = () => {
                   </Link>
                 </ul>
                 <div class="flex items-right mt-2">
-                  <a href="https://wa.me/+962782950960" data-tippy-content="WhatsApp">
+                <a href="#Form" data-tippy-content="WhatsApp">
                     <button translate='no' class="bg-gradient-to-r from-purple-500 to-pink-500 ... hover:bg-pink-800 animate-bounce text-white font-bold py-2 px-4 rounded-full">
                       أحجزي موعدك
                     </button>

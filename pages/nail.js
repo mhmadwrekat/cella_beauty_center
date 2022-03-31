@@ -526,6 +526,7 @@ const nail = () => {
             </div>
           </section>
         </Slide>
+        <div id='Form'></div>
         <Footer />
       </section>
     </>

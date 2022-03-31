@@ -100,11 +100,6 @@ const home = () => {
           </section>
         </section>
 
-
-
-
-
-
         <p className='pt-12 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>منتجات برودافريكا</p>
         <section className='grid grid-cols-1 justify-items-center ... gap-10 py-5 mx-5 sm:mx-0 sm:grid-cols-1 sm:gap-5'>
           <section>
@@ -119,7 +114,7 @@ const home = () => {
             </div>
           </section>
         </section>
-        <div className='pt-2'></div>
+        <div className='py-10'></div>
 <Carosal />
 {/*
         <p className='pt-10 pb-5 text-4xl font-semibold text-center sm:pb-0 sm:text-5xl text-sky-900'>معرض الصور</p>
