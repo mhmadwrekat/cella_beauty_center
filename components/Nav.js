@@ -1,6 +1,6 @@
-import Head from 'next/head';
 import Link from "next/link";
 import React, { useEffect } from "react";
+import HeadComp from "./HeadComp";
 const Nav = () => {
   useEffect(() => {
     try {
@@ -15,16 +15,16 @@ const Nav = () => {
       });
       navButton1.addEventListener("click", () => {
         menu.classList.toggle("hidden");
-      }); 
+      });
       navButton2.addEventListener("click", () => {
         menu.classList.toggle("hidden");
-      }); 
+      });
       navButton3.addEventListener("click", () => {
         menu.classList.toggle("hidden");
-      }); 
+      });
       navButton4.addEventListener("click", () => {
         menu.classList.toggle("hidden");
-      });      
+      });
     } catch (error) {
       handleError(error);
     }
@@ -33,64 +33,87 @@ const Nav = () => {
     }
   }, []);
   return (
-    <>
-      <Head>
-        <title>Cella Center</title>
-        <link rel="icon" href="/assest/saloon.png" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="description" content="Cella Bueaty Center - Amman-Abunsair" />
-        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-      </Head>
-      <>
-        <section >
+    <React.Fragment>
+      <React.Fragment>
+        <HeadComp />
+        <section>
           <div className="leading-normal tracking-normal text-white gradient">
-            <nav id="header" className="fixed top-0 z-30 w-full font-sans text-white bg-white ">
-              <div className="container flex flex-wrap items-center justify-between w-full py-2 mx-auto mt-0">
-                <Link href='/'>
-                  <img className='w-2/6 sm:w-1/6 hover:scale-110 cursor-grab'
-                    src='./cellalogo.jpg' />
+            <nav
+              id="header"
+              className="z-30 w-full font-sans text-white bg-white"
+            >
+              <div className="container flex flex-wrap items-center justify-center w-full py-2 mx-auto mt-0">
+                <Link href="/">
+                  <img
+                    className="w-2/6 sm:w-1/6 hover:scale-110 cursor-grab"
+                    src="./cellalogo.jpg"
+                  />
                 </Link>
-                <ul class="flex flex-col mt-3 md:flex-row md:space-x-8 md:mt-0 text-sm sm:text-xl">
-                <a href="#Form" data-tippy-content="WhatsApp">
-                    <button translate='no' class="bg-gradient-to-r from-purple-500 to-pink-500 ... hover:bg-pink-800 animate-bounce text-white font-bold py-2 px-3 rounded-full">
-                      أحجزي موعدك
-                    </button>
-                  </a>
-                </ul>
-                <div class="flex items-right mt-2 mx-5">
-            <button class="mobile-menu-button" type="button" >
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="text-gray-900  flex w-7 h-7" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                  </button>
-                </div>
               </div>
-              <div class='hidden mobile-menu w-full bg-white opacity-80 border-gray-900'>
-                <ul class="flex flex-col md:space-x-0 md:mt-0 md:text-medium md:font-medium text-center">
-                  <li className='py-3'>
-                    <button class='navButton1'><a href="#Services" class="lg:text-3xl font-bold cursor-grab hover:scale-110 py-2  text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">خدماتنا</a></button>
-                  </li>
-                  <li className='py-3'>
-                  <button class='navButton2'><a href="#Product" class="cursor-grab lg:text-3xl hover:scale-110 py-2 font-bold text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">منتجات برودافريكا</a></button>
-                  </li>
-                  <li className='py-3'>
-                  <button class='navButton3'><a href="#Image" class="cursor-grab font-bold lg:text-3xl hover:scale-110 py-2 text-violet-900 text-center hover:text-violet-600 rounded md:p-0"> معرض الصور</a></button>
-                  </li>
-                  <li className='py-3'>
-                  <button class='navButton4'><a href="#Info" class="cursor-grab hover:scale-110 py-2 lg:text-3xl font-bold text-center no-underline text-violet-900 hover:text-violet-600 md:p-0">اتصل بنا </a></button>
-                  </li>
-                </ul>
-</div>
+              <div class="hidden mobile-menu w-full bg-white opacity-80 border-gray-900"></div>
               <hr className="py-0 my-0 border-b border-gray-100 opacity-25" />
             </nav>
           </div>
         </section>
-      </>
-    </>
-  )
-}
-export default Nav
+      </React.Fragment>
+      <section className="w-screen sticky top-0 z-50 bg-white " dir="rtl">
+        <ul className="text-pink-700 overflow-x-auto flex justify-start items-center lg:justify-center md:space-x-0 md:mt-0 text-center font-TSbold text-sm lg:text-xl">
+          <li className="px-2 lg:px-8">
+            <a href="#Form" data-tippy-content="WhatsApp">
+              <button
+                translate="no"
+                className="hover:text-violet-400 bg-pink-700 text-white font-bold py-1 my-1 px-3 rounded-full lg:w-auto w-28"
+              >
+                أحجزي موعدك
+                <span className=" h-0 w-0">
+                  <span className="animate-ping absolute inline h-4 w-4 rounded-full bg-blue-500"></span>
+                  <span className="relative rounded-full h-0 w-0 bg-blue-800"></span>
+                </span>
+              </button>
+            </a>
+          </li>
+          <li className="px-2 lg:px-8">
+            <a
+              href="#Services"
+              className="cursor-grab hover:scale-110 py-2  text-center no-underline hover:text-violet-600 md:p-0"
+            >
+              خدماتنا
+            </a>
+          </li>
+          <li className="px-2 lg:px-8">
+            <div className="w-28 lg:w-auto">
+              <a
+                href="#Product"
+                className="cursor-grab hover:scale-110 py-2 text-center no-underline hover:text-violet-600 md:p-0"
+              >
+                منتجات برودافريكا
+              </a>
+            </div>
+          </li>
+          <li className="px-2 lg:px-8">
+            <div className="w-20 lg:w-auto">
+              <a
+                href="#Image"
+                class="cursor-grab hover:scale-110 py-2 text-center hover:text-violet-600 rounded md:p-0"
+              >
+                {" "}
+                معرض الصور
+              </a>
+            </div>
+          </li>
+          <li className="px-2 lg:px-8">
+            <div className="w-12 lg:w-auto">
+              <a
+                href="#Info"
+                class="cursor-grab hover:scale-110 py-2 text-center no-underline hover:text-violet-600 md:p-0"
+              >
+                اتصل بنا{" "}
+              </a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </React.Fragment>
+  );
+};
+export default Nav;
