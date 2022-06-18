@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       {/* <div className='pt-16'></div> */}
-      <div className="lg:bg-top bg-center bg-cover bg-no-repeat lg:h-screen h-96 bg-[url('https://chiquehairbeauty.co.uk/wp-content/uploads/2018/11/hair-salon-southampton.jpg')]">
+      <div className="lg:bg-top bg-center bg-cover bg-no-repeat lg:h-screen h-screen bg-HERO">
         {/* <div className="hidden sm:flex">
           <h4
             translate="no"

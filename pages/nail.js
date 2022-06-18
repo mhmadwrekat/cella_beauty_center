@@ -1,8 +1,8 @@
 import React from 'react';
-import PageNav from '../components/PageNav';
-import Footer from '../components/Footer';
+import PageNav from '../components/page/PageNav';
+import Footer from '../components/page/Footer';
 import Slide from "react-awesome-reveal";
-import Carosal from '../components/Carosal';
+import Carosal from '../components/childComp/Carosal';
 const nail = () => {
   return (
     <>
