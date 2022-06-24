@@ -2,36 +2,36 @@ import Link from "next/link";
 import React, { useEffect } from "react";
 import HeadComp from "./HeadComp";
 const Nav = () => {
-  useEffect(() => {
-    try {
-      const btn = document.querySelector("button.mobile-menu-button");
-      const navButton1 = document.querySelector("button.navButton1");
-      const navButton2 = document.querySelector("button.navButton2");
-      const navButton3 = document.querySelector("button.navButton3");
-      const navButton4 = document.querySelector("button.navButton4");
-      const menu = document.querySelector(".mobile-menu");
-      btn.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-      navButton1.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-      navButton2.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-      navButton3.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-      navButton4.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-    } catch (error) {
-      handleError(error);
-    }
-    function handleError(error) {
-      console.error(error);
-    }
-  }, []);
+  // useEffect(() => {
+  //   try {
+  //     const btn = document.querySelector("button.mobile-menu-button");
+  //     const navButton1 = document.querySelector("button.navButton1");
+  //     const navButton2 = document.querySelector("button.navButton2");
+  //     const navButton3 = document.querySelector("button.navButton3");
+  //     const navButton4 = document.querySelector("button.navButton4");
+  //     const menu = document.querySelector(".mobile-menu");
+  //     btn.addEventListener("click", () => {
+  //       menu.classList.toggle("hidden");
+  //     });
+  //     navButton1.addEventListener("click", () => {
+  //       menu.classList.toggle("hidden");
+  //     });
+  //     navButton2.addEventListener("click", () => {
+  //       menu.classList.toggle("hidden");
+  //     });
+  //     navButton3.addEventListener("click", () => {
+  //       menu.classList.toggle("hidden");
+  //     });
+  //     navButton4.addEventListener("click", () => {
+  //       menu.classList.toggle("hidden");
+  //     });
+  //   } catch (error) {
+  //     handleError(error);
+  //   }
+  //   function handleError(error) {
+  //     console.error(error);
+  //   }
+  // }, []);
   return (
     <React.Fragment>
       <React.Fragment>
@@ -56,19 +56,19 @@ const Nav = () => {
           </div>
         </section>
       </React.Fragment>
-      <section className="w-screen sticky top-0 z-50 bg-white " dir="rtl">
+      <section className="w-full sticky top-0 z-50 bg-white " dir="rtl">
         <ul className="text-pink-700 overflow-x-auto flex justify-start items-center lg:justify-center md:space-x-0 md:mt-0 text-center font-TSbold text-sm lg:text-xl">
           <li className="px-2 lg:px-8">
             <a href="#Form" data-tippy-content="WhatsApp">
+              <span className=" h-0 w-0">
+                <span className="animate-ping absolute inline h-4 w-4 rounded-full bg-blue-500"></span>
+                <span className="relative rounded-full h-0 w-0 bg-blue-800"></span>
+              </span>
               <button
                 translate="no"
                 className="hover:text-violet-400 bg-pink-700 text-white font-bold py-1 my-1 px-3 rounded-full lg:w-auto w-28"
               >
                 أحجزي موعدك
-                <span className=" h-0 w-0">
-                  <span className="animate-ping absolute inline h-4 w-4 rounded-full bg-blue-500"></span>
-                  <span className="relative rounded-full h-0 w-0 bg-blue-800"></span>
-                </span>
               </button>
             </a>
           </li>
@@ -90,7 +90,7 @@ const Nav = () => {
               </a>
             </div>
           </li>
-          <li className="px-2 lg:px-8">
+          {/* <li className="px-2 lg:px-8">
             <div className="w-20 lg:w-auto">
               <a
                 href="#Image"
@@ -100,7 +100,7 @@ const Nav = () => {
                 معرض الصور
               </a>
             </div>
-          </li>
+          </li> */}
           <li className="px-2 lg:px-8">
             <div className="w-12 lg:w-auto">
               <a

@@ -187,12 +187,13 @@ const home = () => {
             </div>
           </section>
         </Slide>
-*/}
         <p className="lg:pr-12 font-TSbold lg:pt-10 py-5 lg:py-10 text-3xl text-right lg:text-5xl text-sky-900">
           معرض الصور
         </p>
+
+*/}
       </section>
-      <Carosal />
+      {/* <Carosal /> */}
       <div id="Form"></div>
       <Footer />
     </div>

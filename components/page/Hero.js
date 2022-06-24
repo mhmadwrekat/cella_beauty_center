@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       {/* <div className='pt-16'></div> */}
-      <div className="lg:bg-top bg-center bg-cover bg-no-repeat lg:h-screen h-screen bg-HERO">
+      <div className="lg:bg-top bg-top bg-cover bg-no-repeat bg-fixed lg:h-screen h-screen bg-HERO">
         {/* <div className="hidden sm:flex">
           <h4
             translate="no"

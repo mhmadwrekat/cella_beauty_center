@@ -7,6 +7,7 @@ module.exports = {
     backgroundImage: {
       HERO: "url('/assest/imagesNav/Hero.webp')",
       Mobile_profile: "url('/assest/mobileprofile.jpg')",
+      Cella: "url('/assest/carosal1.jpg')",
     },
 
     extend: {

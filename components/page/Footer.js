@@ -35,15 +35,15 @@ const Footer = () => {
   }
   return (
     <>
-      <section className="bg-gradient-to-r from-white to-sky-50">
+      <section className="lg:pt-0 pt-5">
         {/* FEEDBACK FORM */}
-        <section className="pt-10 text-gray-900 sm:pt-10 ">
-          <div className="text-gray-100 opacity-95">
+        <section className="pt-10 text-gray-900 lg:pt-14 lg:bg-top bg-right bg-cover bg-no-repeat bg-fixed lg:h-screen h-screen bg-Cella">
+          <div className="text-gray-100">
             <div className="container flex flex-col mx-auto md:flex-row">
               <div className="container w-full px-4">
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full px-4 lg:w-5/12">
-                    <div className="relative flex flex-col w-full min-w-0 mb-6 break-words rounded-lg shadow-lg bg-gradient-to-r from-purple-300 to-purple-500 opacity-90">
+                    <div className="relative flex flex-col w-full min-w-0 mb-0 break-words rounded-lg shadow-lg bg-gradient-to-r from-pink-500 to-pink-800 opacity-90">
                       <div className="flex-auto p-5 lg:p-10">
                         <h4 className="mb-3 text-2xl font-TSExtra text-center">
                           !! للحجز والأستفسار
