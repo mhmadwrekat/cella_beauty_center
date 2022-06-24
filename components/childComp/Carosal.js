@@ -34,6 +34,7 @@ const Carosal = () => {
         >
           <SwiperSlide>
             <img
+              alt="cella center"
               src="./assest/carosal1.jpg"
               className="block w-full shadow-2xl lg:rounded-lg"
               onClick={() => {
@@ -43,6 +44,7 @@ const Carosal = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img
+              alt="cella beauty center"
               src="./assest/carosal2.jpg"
               className="block w-full shadow-2xl lg:rounded-lg"
               onClick={() => {
@@ -52,6 +54,7 @@ const Carosal = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img
+              alt="sallon"
               src="./assest/carosal3.jpg"
               className="block w-full shadow-2xl lg:rounded-lg"
               onClick={() => {
@@ -61,6 +64,7 @@ const Carosal = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img
+              alt="صالون سيلا"
               src="./assest/carosal4.jpg"
               className="block w-full shadow-2xl lg:rounded-lg"
               onClick={() => {
@@ -70,6 +74,7 @@ const Carosal = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img
+              alt="سيلا بيوتي سنتر"
               src="./assest/carosal5.jpg"
               className="block w-full shadow-2xl lg:rounded-lg"
               onClick={() => {
@@ -79,6 +84,7 @@ const Carosal = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img
+              alt="صالون سيلا عمان"
               src="./assest/carosal6.jpg"
               className="block w-full shadow-2xl lg:rounded-lg"
               onClick={() => {
@@ -88,6 +94,7 @@ const Carosal = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img
+              alt="بيوتي سينبر سيلا"
               src="./assest/carosal7.jpg"
               className="block w-full shadow-2xl lg:rounded-lg"
               onClick={() => {

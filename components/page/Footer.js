@@ -37,12 +37,12 @@ const Footer = () => {
     <>
       <section className="lg:pt-0 pt-5">
         {/* FEEDBACK FORM */}
-        <section className="pt-10 text-gray-900 lg:pt-14 lg:bg-top bg-right bg-cover bg-no-repeat bg-fixed lg:h-screen h-screen bg-Cella">
+        <section className="pt-10 text-gray-900 lg:pt-14 lg:bg-top bg-right bg-cover bg-no-repeat bg-fixed h-auto bg-Cella">
           <div className="text-gray-100">
             <div className="container flex flex-col mx-auto md:flex-row">
               <div className="container w-full px-4">
                 <div className="flex flex-wrap justify-center">
-                  <div className="w-full px-4 lg:w-5/12">
+                  <div className="w-full px-4 lg:w-5/12 pb-10">
                     <div className="relative flex flex-col w-full min-w-0 mb-0 break-words rounded-lg shadow-lg bg-gradient-to-r from-pink-500 to-pink-800 opacity-90">
                       <div className="flex-auto p-5 lg:p-10">
                         <h4 className="mb-3 text-2xl font-TSExtra text-center">
@@ -57,7 +57,7 @@ const Footer = () => {
                           <div className="relative w-full mb-3">
                             <label
                               className="block float-right mb-2 text-xs font-TSbold uppercase"
-                              for="email"
+                              htmlFor="email"
                             >
                               الأسم
                             </label>
@@ -65,7 +65,7 @@ const Footer = () => {
                               type="text"
                               name="name"
                               id="name"
-                              class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
+                              className="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
                               placeholder="Cella Ahmad"
                               required
                             />
@@ -73,7 +73,7 @@ const Footer = () => {
                           <div className="relative w-full mb-3">
                             <label
                               className="block float-right mb-2 text-xs font-TSbold uppercase"
-                              for="email"
+                              htmlFor="email"
                             >
                               الأيميل
                             </label>
@@ -81,7 +81,7 @@ const Footer = () => {
                               type="email"
                               name="email"
                               id="email"
-                              class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
+                              className="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
                               placeholder="Cella@gmail.com"
                               required
                             />
@@ -89,7 +89,7 @@ const Footer = () => {
                           <div className="relative w-full mb-3">
                             <label
                               className="block float-right mb-2 text-xs font-TSbold uppercase"
-                              for="number"
+                              htmlFor="number"
                             >
                               الهاتف
                             </label>
@@ -97,7 +97,7 @@ const Footer = () => {
                               type="number"
                               name="number"
                               id="number"
-                              class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
+                              className="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
                               placeholder="0799999999"
                               required
                             />
@@ -105,7 +105,7 @@ const Footer = () => {
                           <div className="relative w-full mb-3">
                             <label
                               className="block float-right mb-2 text-xs font-TSbold uppercase"
-                              for="day"
+                              htmlFor="day"
                             >
                               التوقيت
                             </label>
@@ -113,19 +113,19 @@ const Footer = () => {
                               type="datetime-local"
                               name="day"
                               id="day"
-                              class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
+                              className="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
                               required
                             />
                           </div>
                           <div className="relative w-full mb-3">
                             <label
                               className="block float-right mb-2 text-xs font-TSbold uppercase"
-                              for="message"
+                              htmlFor="message"
                             >
                               الحجز / الخدمة
                             </label>
                             <textarea
-                              maxlength="300"
+                              maxLength="300"
                               name="message"
                               id="feedback"
                               rows="1"
@@ -161,16 +161,17 @@ const Footer = () => {
                 <iframe
                   className="w-full h-auto px-0 py-3 sm:pl-0 sm:px-10 sm:w-full sm:h-96 rounded-3xl"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9692.582730983906!2d35.884355085248224!3d32.06012974125795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccadd703c7e3d5a7!2sCella%20Beauty%20Center!5e0!3m2!1sar!2sjo!4v1642220212245!5m2!1sar!2sjo"
-                  allowfullscreen=""
-                  loading="lazy"
+                  allowFullScreen=""
+                  loading="eager"
+                  title="cella center location"
                 ></iframe>
               </div>
               <div className="sm:pr-5 text-sm sm:text-xl sm:pt-7 pt-5 grid justify-center ...">
-                <div class="flex flex-wrap justify-center space-x-2 items-end">
+                <div className="flex flex-wrap justify-center space-x-2 items-end">
                   <Link href="tel:0782950960">
-                    <span class="mx-4 rounded-full text-sky-900 bg-gray-200 font-TSbold text-sm flex align-center cursor-pointer active:bg-gray-300 transition duration-300 ease w-max">
+                    <span className="mx-4 rounded-full text-sky-900 bg-gray-200 font-TSbold text-sm flex align-center cursor-pointer active:bg-gray-300 transition duration-300 ease w-max">
                       <img
-                        class="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none shadow-2xl"
+                        className="rounded-full sm:w-10 sm:h-10 w-8 h-8 max-w-none shadow-2xl"
                         alt="A"
                         src="https://cdn-icons-png.flaticon.com/512/6996/6996275.png"
                       />
@@ -193,21 +194,22 @@ const Footer = () => {
         </section>
         <section
           translate="no"
-          class="bg-white text-pink-700 "
+          className="bg-white text-pink-700 "
           id="profilefoot"
         >
           <div>
-            <div class="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-9">
-              <div class="flex flex-col items-center justify-center">
+            <div className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 py-9">
+              <div className="flex flex-col items-center justify-center">
                 <Link href="/">
                   <img
-                    class="cursor-grab	hover:scale-110"
+                    alt="بيوتي سينتر سيلا"
+                    className="cursor-grab	hover:scale-110"
                     src="./cellalogo.jpg"
                     width="130"
                     height="30"
                   />
                 </Link>
-                <div class="flex items-center gap-x-8 mt-4">
+                <div className="flex items-center gap-x-8 mt-4">
                   <a
                     href="https://wa.me/+962782950960"
                     data-tippy-content="WhatsApp"
@@ -215,6 +217,7 @@ const Footer = () => {
                     <img
                       src="./assest/whatsapp.png"
                       className="w-6 h-6 fill-current"
+                      alt="واتس اب"
                     />
                   </a>
                   <a
@@ -225,6 +228,7 @@ const Footer = () => {
                     <img
                       src="./assest/facebook.png"
                       className="w-6 h-6 fill-curren"
+                      alt="فيسبووك"
                     />
                   </a>
                   <a
@@ -235,31 +239,32 @@ const Footer = () => {
                     <img
                       src="./assest/instagram.png"
                       className="w-6 h-6 fill-current"
+                      alt="انستا"
                     />
                   </a>
                 </div>
-                <div class="flex items-center mt-6">
-                  <p class="font-mono text-xs opacity-75 sm:pt-0 pt-3 hover:scale-105 text-pink-700">
+                <div className="flex items-center mt-6">
+                  <p className="font-mono text-xs opacity-75 sm:pt-0 pt-3 hover:scale-105 text-pink-700">
                     Inc. All Rights Reserved
                   </p>
-                  <div class="opacity-75 border-l border-gray-800 sm:pl-2 sm:ml-2">
+                  <div className="opacity-75 border-l border-gray-800 sm:pl-2 sm:ml-2">
                     <a
-                      href="https://wa.me/+962788818125"
-                      class="text-pink-700 sm:block hidden font-TSbold text-xs hover:scale-105"
+                      href="https://www.wrekat.com"
+                      className="text-pink-700 sm:block hidden font-TSbold text-xs hover:scale-105"
                     >
                       2022{" "}
-                      <span class="text-pink-700 text-xs font-TSbold">
+                      <span className="text-pink-700 text-xs font-TSbold">
                         MHMAD WREKAT
                       </span>
                     </a>
                   </div>
                 </div>
                 <a
-                  href="https://wa.me/+962788818125"
-                  class="text-pink-700 block sm:hidden pt-2 font-TSbold text-xs hover:scale-105"
+                  href="https://www.wrekat.com"
+                  className="text-pink-700 block sm:hidden pt-2 font-TSbold text-xs hover:scale-105"
                 >
                   2022{" "}
-                  <span class="text-pink-700 text-xs font-TSbold">
+                  <span className="text-pink-700 text-xs font-TSbold">
                     MHMAD WREKAT
                   </span>
                 </a>

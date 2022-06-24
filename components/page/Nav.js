@@ -47,6 +47,7 @@ const Nav = () => {
                   <img
                     className="w-2/6 sm:w-1/6 hover:scale-110 cursor-grab"
                     src="./cellalogo.jpg"
+                    alt='cella logo'
                   />
                 </Link>
               </div>
@@ -105,7 +106,7 @@ const Nav = () => {
             <div className="w-12 lg:w-auto">
               <a
                 href="#Info"
-                class="cursor-grab hover:scale-110 py-2 text-center no-underline hover:text-violet-600 md:p-0"
+                className="cursor-grab hover:scale-110 py-2 text-center no-underline hover:text-violet-600 md:p-0"
               >
                 اتصل بنا{" "}
               </a>

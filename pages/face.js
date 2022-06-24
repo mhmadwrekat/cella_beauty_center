@@ -13,7 +13,7 @@ const face = () => {
         className="pt-16 bg-gradient-to-r from-white to-fuchsia-100"
       >
         <div>
-          <img src="./assestface/facehero.jpg" class="w-full" />
+          <img src="./assestface/facehero.jpg" className="w-full" />
           <div className="hidden sm:flex">
             <h4 className="absolute float-right px-4 py-4 text-3xl font-semibold text-right bg-white opacity-75 text-sky-900 w-96 top-60 rounded-2xl left-24">
               الاهتمام بالبشرة هو ما يعطي الانطباع الرئيسي بالحيويه والشباب بغض
@@ -23,8 +23,8 @@ const face = () => {
         </div>
         <section className="absolute w-full text-center sm:hidden top-20">
           <section className="relative">
-            <div class="relative py-5 sm:hidden overflow-hidden rounded-lg  cursor-pointer">
-              <h4 class="mb-3 text-sm font-semibold text-center tracking-tight text-sky-900">
+            <div className="relative py-5 sm:hidden overflow-hidden rounded-lg  cursor-pointer">
+              <h4 className="mb-3 text-sm font-semibold text-center tracking-tight text-sky-900">
                 <h4 className="px-4 py-3 font-semibold text-center bg-white opacity-75 text-sky-900">
                   الاهتمام بالبشرة هو ما يعطي الانطباع الرئيسي بالحيويه والشباب
                   بغض النظر عن العمر الحقيقي
@@ -40,34 +40,34 @@ const face = () => {
         <div className="pt-3"></div>
         {/* S 1 */}
         <Slide triggerOnce>
-          <section class="overflow-hidden text-gray-700">
-            <div class="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
-              <div class="flex flex-wrap -m-1 md:-m-2">
-                <div class="flex flex-wrap w-1/2">
-                  <div class="w-1/2 p-1 md:p-2">
+          <section className="overflow-hidden text-gray-700">
+            <div className="container px-2 py-2 mx-auto lg:pt-24 lg:px-20">
+              <div className="flex flex-wrap -m-1 md:-m-2">
+                <div className="flex flex-wrap w-1/2">
+                  <div className="w-1/2 p-1 md:p-2">
                     <img
                       alt="gallery"
-                      class="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-cover object-center w-full h-full rounded-lg"
                       src="./assestface/face3.jpg"
                       onClick={() => {
                         window.open("./assestface/face3.jpg", "_self");
                       }}
                     />
                   </div>
-                  <div class="w-1/2 p-1 md:p-2">
+                  <div className="w-1/2 p-1 md:p-2">
                     <img
                       alt="gallery"
-                      class="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-cover object-center w-full h-full rounded-lg"
                       src="./assestface/face6.jpg"
                       onClick={() => {
                         window.open("./assestface/face6.jpg", "_self");
                       }}
                     />
                   </div>
-                  <div class="w-full p-1 md:p-2">
+                  <div className="w-full p-1 md:p-2">
                     <img
                       alt="gallery"
-                      class="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-cover object-center w-full h-full rounded-lg"
                       src="./assestface/face4.jpg"
                       onClick={() => {
                         window.open("./assestface/face4.jpg", "_self");
@@ -75,31 +75,31 @@ const face = () => {
                     />
                   </div>
                 </div>
-                <div class="flex flex-wrap w-1/2">
-                  <div class="w-full p-1 md:p-2">
+                <div className="flex flex-wrap w-1/2">
+                  <div className="w-full p-1 md:p-2">
                     <img
                       alt="gallery"
-                      class="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-cover object-center w-full h-full rounded-lg"
                       src="./assestface/face5.jpg"
                       onClick={() => {
                         window.open("./assestface/face5.jpg", "_self");
                       }}
                     />
                   </div>
-                  <div class="w-1/2 p-1 md:p-2">
+                  <div className="w-1/2 p-1 md:p-2">
                     <img
                       alt="gallery"
-                      class="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-cover object-center w-full h-full rounded-lg"
                       src="./assestface/face2.jpg"
                       onClick={() => {
                         window.open("./assestface/face2.jpg", "_self");
                       }}
                     />
                   </div>
-                  <div class="w-1/2 p-1 md:p-2">
+                  <div className="w-1/2 p-1 md:p-2">
                     <img
                       alt="gallery"
-                      class="block object-cover object-center w-full h-full rounded-lg"
+                      className="block object-cover object-center w-full h-full rounded-lg"
                       src="./assestface/face1.jpg"
                       onClick={() => {
                         window.open("./assestface/face1.jpg", "_self");
@@ -121,22 +121,22 @@ const face = () => {
             return (
               <>
                 <section>
-                  <div class="w-36 sm:w-60">
-                    <div class="relative overflow-hidden rounded-xl shadow-2xl">
-                      <h4 class="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
+                  <div className="w-36 sm:w-60">
+                    <div className="relative overflow-hidden rounded-xl shadow-2xl">
+                      <h4 className="my-1 text-sm font-semibold tracking-tight text-center sm:text-2xl text-sky-900">
                         {item.name}
                       </h4>
                       <img
-                        class="object-cover w-full sm:h-48 h-28"
+                        className="object-cover w-full sm:h-48 h-28"
                         src={item.img}
                         alt="Face"
                       />
                       <p className="pl-1">
-                        <span class="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-300 rounded-full">
+                        <span className="sm:px-2 sm:py-1 py-0 px-2 text-xs font-bold leading-none text-white bg-sky-300 rounded-full">
                           {item.price}JD
                         </span>
                         <a href="https://wa.me/+962782950960">
-                          <span class="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
+                          <span className="py-1 sm:px-2 sm:py-1 px-1 text-xs font-bold leading-none float-right rounded-full">
                             <img
                               src="https://cdn-icons-png.flaticon.com/512/3523/3523887.png"
                               className="w-5 h-5"

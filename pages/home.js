@@ -51,7 +51,6 @@ const home = () => {
       id: 6,
     },
   ];
-  console.log(service);
   return (
     <div translate="no">
       <Nav />
@@ -67,11 +66,13 @@ const home = () => {
           {service.map((item) => {
             return (
               <section key={item.id}>
-                <div class="lg:w-96 w-full my-0 lg:my-5">
-                  <div class="relative overflow-hidden rounded-xl shadow-lg">
-                    <h4 class="my-1 tracking-tight text-center">{item.name}</h4>
+                <div className="lg:w-96 w-full my-0 lg:my-5">
+                  <div className="relative overflow-hidden rounded-xl shadow-lg">
+                    <h4 className="my-1 tracking-tight text-center">
+                      {item.name}
+                    </h4>
                     <Link href={item.link}>
-                      <div className="w-full h-56">
+                      <div className="w-full h-56 cursor-alias">
                         <img
                           className="object-cover w-full h-full hover:scale-110"
                           src={item.img}
@@ -95,7 +96,7 @@ const home = () => {
         >
           برودافريكا
         </p>
-        <section className="grid lg:w-6/12 mx-auto gap-4 text-pink-700 text-lg lg:text-xl font-TSbold">
+        <section className="pb-4 lg:pb-10 grid lg:w-6/12 mx-auto gap-4 text-pink-700 text-lg lg:text-xl font-TSbold">
           {" "}
           <section className="text-pink-700 text-lg lg:text-xl font-TSbold">
             <div class="lg:w-full w-full my-0 lg:my-5" id="Product">
