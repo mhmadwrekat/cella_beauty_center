@@ -20,6 +20,7 @@ const Hero = () => {
         <section className="relative">
           <div class="relative py-5 sm:hidden overflow-hidden rounded-lg shadow-2xl cursor-pointer">
             <h4
+            
               translate="no"
               class="mb-3 text-xl font-semibold text-center tracking-tight text-sky-900"
             >
