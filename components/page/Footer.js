@@ -263,7 +263,7 @@ const Footer = () => {
                   href="https://www.wrekat.com"
                   className="text-pink-700 block sm:hidden pt-2 font-TSbold text-xs hover:scale-105"
                 >
-                  2022{" "}
+                  2023{" "}
                   <span className="text-pink-700 text-xs font-TSbold">
                     MHMAD WREKAT
                   </span>
