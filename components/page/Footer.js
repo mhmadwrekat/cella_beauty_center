@@ -3,7 +3,8 @@ import Link from "next/link";
 const SERVICE_ID = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID;
 const USER_ID = process.env.NEXT_PUBLIC_EMAIL_USER_ID;
 const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID;
-import swal from "sweetalert";
+// import swal from "sweetalert";
+import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 const Footer = () => {
   const date = new Date();
@@ -12,6 +13,18 @@ const Footer = () => {
   {
     /* POST FEEDBACK */
   }
+  const Toast = Swal.mixin({
+    toast: true,
+    position: "bottom",
+    showConfirmButton: false,
+    timer: 2000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener("mouseenter", Swal.stopTimer);
+      toast.addEventListener("mouseleave", Swal.resumeTimer);
+    },
+  });
+
   const form = useRef();
   const handelFeedback = (event) => {
     event.preventDefault();
@@ -24,7 +37,11 @@ const Footer = () => {
       author: 2,
     };
     //  createFeedback(feedback);
-    swal("تم بنجاح", "شكرا لك , سيتم التواصل معك عن قريب", "success");
+    // swal("تم بنجاح", "شكرا لك , سيتم التواصل معك عن قريب", "success");
+    Toast.fire({
+      icon: "success",
+      title: "شكرا لك , سيتم التواصل معك عن قريب",
+    });
     emailjs.sendForm(
       `${SERVICE_ID}`,
       `${TEMPLATE_ID}`,
