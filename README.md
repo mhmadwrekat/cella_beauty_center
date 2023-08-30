@@ -6,7 +6,7 @@ cella beauty center is a state-of-the-art beauty center, especializing in Bridal
 ---
 <b>
 <p align="center">
-Copyright (c) 2022 Mhmad Wrekat
+Copyright (c) 2023 Mhmad Wrekat
 </p>
 
 ---
