@@ -260,7 +260,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <a
-                  href="https://www.wrekat.com"
+                  href="https://www.wrekat.vercel.app"
                   className="text-pink-700 block sm:hidden pt-2 font-TSbold text-xs hover:scale-105"
                 >
                   2023{" "}
