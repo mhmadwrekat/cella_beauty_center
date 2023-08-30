@@ -6,6 +6,9 @@ const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID;
 import swal from "sweetalert";
 import emailjs from "@emailjs/browser";
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
+
   {
     /* POST FEEDBACK */
   }
@@ -249,10 +252,10 @@ const Footer = () => {
                   </p>
                   <div className="opacity-75 border-l border-gray-800 sm:pl-2 sm:ml-2">
                     <a
-                      href="https://www.wrekat.com"
+                      href="https://wrekat.vercel.app"
                       className="text-pink-700 sm:block hidden font-TSbold text-xs hover:scale-105"
                     >
-                      2022{" "}
+                      {year}{" "}
                       <span className="text-pink-700 text-xs font-TSbold">
                         MHMAD WREKAT
                       </span>
@@ -260,10 +263,10 @@ const Footer = () => {
                   </div>
                 </div>
                 <a
-                  href="https://www.wrekat.vercel.app"
+                  href="https://wrekat.vercel.app"
                   className="text-pink-700 block sm:hidden pt-2 font-TSbold text-xs hover:scale-105"
                 >
-                  2023{" "}
+                  {year}{" "}
                   <span className="text-pink-700 text-xs font-TSbold">
                     MHMAD WREKAT
                   </span>
